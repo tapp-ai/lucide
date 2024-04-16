@@ -69,7 +69,7 @@
     "svgson": "^5.3.1",
     "yargs": "^17.7.2"
   },
-  "packageManager": "pnpm@8.14.0+sha256.9cebf61abd83f68177b29484da72da9751390eaad46dfc3072d266bfbb1ba7bf",
+  "packageManager": "pnpm@9.0.1",
   "pnpm": {
     "packageExtensions": {
       "vue-template-compiler": {
