@@ -11,9 +11,9 @@ var react = require('react');
 
 var defaultAttributes = {
   xmlns: "http://www.w3.org/2000/svg",
-  width: 16,
-  height: 16,
-  viewBox: "0 0 16 16",
+  width: 24,
+  height: 24,
+  viewBox: "0 0 24 24",
   fill: "none",
   stroke: "currentColor",
   strokeWidth: 2,
@@ -42,7 +42,7 @@ const createLucideIcon = (iconName, iconNode) => {
           width: size,
           height: size,
           stroke: color,
-          strokeWidth: absoluteStrokeWidth ? Number(strokeWidth) * 16 / Number(size) : strokeWidth,
+          strokeWidth: absoluteStrokeWidth ? Number(strokeWidth) * 24 / Number(size) : strokeWidth,
           className: ["lucide", `lucide-${toKebabCase(iconName)}`, className].join(" "),
           ...rest
         },

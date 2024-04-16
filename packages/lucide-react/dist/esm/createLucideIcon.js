@@ -28,7 +28,7 @@ const createLucideIcon = (iconName, iconNode) => {
           width: size,
           height: size,
           stroke: color,
-          strokeWidth: absoluteStrokeWidth ? Number(strokeWidth) * 16 / Number(size) : strokeWidth,
+          strokeWidth: absoluteStrokeWidth ? Number(strokeWidth) * 24 / Number(size) : strokeWidth,
           className: ["lucide", `lucide-${toKebabCase(iconName)}`, className].join(" "),
           ...rest
         },

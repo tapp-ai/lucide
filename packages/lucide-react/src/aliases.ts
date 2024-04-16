@@ -5128,10 +5128,6 @@ export { default as AlarmCheck } from './icons/alarm-check';
 export { default as AlarmCheckIcon } from './icons/alarm-check';
 export { default as LucideAlarmCheck } from './icons/alarm-check';
 
-// ArrowDown01 aliases
-export { default as ArrowDown01Icon } from './icons/arrow-down-0-1';
-export { default as LucideArrowDown01 } from './icons/arrow-down-0-1';
-
 // AlarmClockPlus aliases
 export { default as AlarmClockPlusIcon } from './icons/alarm-clock-plus';
 export { default as LucideAlarmClockPlus } from './icons/alarm-clock-plus';
@@ -5143,13 +5139,6 @@ export { default as LucideAlarmPlus } from './icons/alarm-plus';
 export { default as ArrowDown10Icon } from './icons/arrow-down-1-0';
 export { default as LucideArrowDown10 } from './icons/arrow-down-1-0';
 
-// ArrowDownAZ aliases
-export { default as ArrowDownAZIcon } from './icons/arrow-down-a-z';
-export { default as LucideArrowDownAZ } from './icons/arrow-down-a-z';
-export { default as ArrowDownAz } from './icons/arrow-down-az';
-export { default as ArrowDownAzIcon } from './icons/arrow-down-az';
-export { default as LucideArrowDownAz } from './icons/arrow-down-az';
-
 // ArrowDownWideNarrow aliases
 export { default as ArrowDownWideNarrowIcon } from './icons/arrow-down-wide-narrow';
 export { default as LucideArrowDownWideNarrow } from './icons/arrow-down-wide-narrow';
@@ -5157,16 +5146,16 @@ export { default as SortDesc } from './icons/sort-desc';
 export { default as SortDescIcon } from './icons/sort-desc';
 export { default as LucideSortDesc } from './icons/sort-desc';
 
-// ArrowUp10 aliases
-export { default as ArrowUp10Icon } from './icons/arrow-up-1-0';
-export { default as LucideArrowUp10 } from './icons/arrow-up-1-0';
+// ArrowDownAZ aliases
+export { default as ArrowDownAZIcon } from './icons/arrow-down-a-z';
+export { default as LucideArrowDownAZ } from './icons/arrow-down-a-z';
+export { default as ArrowDownAz } from './icons/arrow-down-az';
+export { default as ArrowDownAzIcon } from './icons/arrow-down-az';
+export { default as LucideArrowDownAz } from './icons/arrow-down-az';
 
-// ArrowUpAZ aliases
-export { default as ArrowUpAZIcon } from './icons/arrow-up-a-z';
-export { default as LucideArrowUpAZ } from './icons/arrow-up-a-z';
-export { default as ArrowUpAz } from './icons/arrow-up-az';
-export { default as ArrowUpAzIcon } from './icons/arrow-up-az';
-export { default as LucideArrowUpAz } from './icons/arrow-up-az';
+// ArrowDown01 aliases
+export { default as ArrowDown01Icon } from './icons/arrow-down-0-1';
+export { default as LucideArrowDown01 } from './icons/arrow-down-0-1';
 
 // ArrowDownZA aliases
 export { default as ArrowDownZAIcon } from './icons/arrow-down-z-a';
@@ -5179,6 +5168,10 @@ export { default as LucideArrowDownZa } from './icons/arrow-down-za';
 export { default as ArrowUp01Icon } from './icons/arrow-up-0-1';
 export { default as LucideArrowUp01 } from './icons/arrow-up-0-1';
 
+// ArrowUp10 aliases
+export { default as ArrowUp10Icon } from './icons/arrow-up-1-0';
+export { default as LucideArrowUp10 } from './icons/arrow-up-1-0';
+
 // ArrowUpNarrowWide aliases
 export { default as ArrowUpNarrowWideIcon } from './icons/arrow-up-narrow-wide';
 export { default as LucideArrowUpNarrowWide } from './icons/arrow-up-narrow-wide';
@@ -5186,19 +5179,12 @@ export { default as SortAsc } from './icons/sort-asc';
 export { default as SortAscIcon } from './icons/sort-asc';
 export { default as LucideSortAsc } from './icons/sort-asc';
 
-// Axis3d aliases
-export { default as Axis3dIcon } from './icons/axis-3d';
-export { default as LucideAxis3d } from './icons/axis-3d';
-export { default as Axis3D } from './icons/axis-3-d';
-export { default as Axis3DIcon } from './icons/axis-3-d';
-export { default as LucideAxis3D } from './icons/axis-3-d';
-
-// BadgeCheck aliases
-export { default as BadgeCheckIcon } from './icons/badge-check';
-export { default as LucideBadgeCheck } from './icons/badge-check';
-export { default as Verified } from './icons/verified';
-export { default as VerifiedIcon } from './icons/verified';
-export { default as LucideVerified } from './icons/verified';
+// ArrowUpAZ aliases
+export { default as ArrowUpAZIcon } from './icons/arrow-up-a-z';
+export { default as LucideArrowUpAZ } from './icons/arrow-up-a-z';
+export { default as ArrowUpAz } from './icons/arrow-up-az';
+export { default as ArrowUpAzIcon } from './icons/arrow-up-az';
+export { default as LucideArrowUpAz } from './icons/arrow-up-az';
 
 // ArrowUpZA aliases
 export { default as ArrowUpZAIcon } from './icons/arrow-up-z-a';
@@ -5206,6 +5192,13 @@ export { default as LucideArrowUpZA } from './icons/arrow-up-z-a';
 export { default as ArrowUpZa } from './icons/arrow-up-za';
 export { default as ArrowUpZaIcon } from './icons/arrow-up-za';
 export { default as LucideArrowUpZa } from './icons/arrow-up-za';
+
+// Axis3d aliases
+export { default as Axis3dIcon } from './icons/axis-3d';
+export { default as LucideAxis3d } from './icons/axis-3d';
+export { default as Axis3D } from './icons/axis-3-d';
+export { default as Axis3DIcon } from './icons/axis-3-d';
+export { default as LucideAxis3D } from './icons/axis-3-d';
 
 // BetweenHorizontalEnd aliases
 export { default as BetweenHorizontalEndIcon } from './icons/between-horizontal-end';
@@ -5235,6 +5228,20 @@ export { default as CurlyBraces } from './icons/curly-braces';
 export { default as CurlyBracesIcon } from './icons/curly-braces';
 export { default as LucideCurlyBraces } from './icons/curly-braces';
 
+// BadgeCheck aliases
+export { default as BadgeCheckIcon } from './icons/badge-check';
+export { default as LucideBadgeCheck } from './icons/badge-check';
+export { default as Verified } from './icons/verified';
+export { default as VerifiedIcon } from './icons/verified';
+export { default as LucideVerified } from './icons/verified';
+
+// CircleArrowLeft aliases
+export { default as CircleArrowLeftIcon } from './icons/circle-arrow-left';
+export { default as LucideCircleArrowLeft } from './icons/circle-arrow-left';
+export { default as ArrowLeftCircle } from './icons/arrow-left-circle';
+export { default as ArrowLeftCircleIcon } from './icons/arrow-left-circle';
+export { default as LucideArrowLeftCircle } from './icons/arrow-left-circle';
+
 // CircleAlert aliases
 export { default as CircleAlertIcon } from './icons/circle-alert';
 export { default as LucideCircleAlert } from './icons/circle-alert';
@@ -5256,13 +5263,6 @@ export { default as ArrowDownCircle } from './icons/arrow-down-circle';
 export { default as ArrowDownCircleIcon } from './icons/arrow-down-circle';
 export { default as LucideArrowDownCircle } from './icons/arrow-down-circle';
 
-// CircleArrowLeft aliases
-export { default as CircleArrowLeftIcon } from './icons/circle-arrow-left';
-export { default as LucideCircleArrowLeft } from './icons/circle-arrow-left';
-export { default as ArrowLeftCircle } from './icons/arrow-left-circle';
-export { default as ArrowLeftCircleIcon } from './icons/arrow-left-circle';
-export { default as LucideArrowLeftCircle } from './icons/arrow-left-circle';
-
 // CircleArrowOutDownRight aliases
 export { default as CircleArrowOutDownRightIcon } from './icons/circle-arrow-out-down-right';
 export { default as LucideCircleArrowOutDownRight } from './icons/circle-arrow-out-down-right';
@@ -5277,19 +5277,19 @@ export { default as ArrowDownLeftFromCircle } from './icons/arrow-down-left-from
 export { default as ArrowDownLeftFromCircleIcon } from './icons/arrow-down-left-from-circle';
 export { default as LucideArrowDownLeftFromCircle } from './icons/arrow-down-left-from-circle';
 
+// CircleArrowOutUpLeft aliases
+export { default as CircleArrowOutUpLeftIcon } from './icons/circle-arrow-out-up-left';
+export { default as LucideCircleArrowOutUpLeft } from './icons/circle-arrow-out-up-left';
+export { default as ArrowUpLeftFromCircle } from './icons/arrow-up-left-from-circle';
+export { default as ArrowUpLeftFromCircleIcon } from './icons/arrow-up-left-from-circle';
+export { default as LucideArrowUpLeftFromCircle } from './icons/arrow-up-left-from-circle';
+
 // CircleArrowRight aliases
 export { default as CircleArrowRightIcon } from './icons/circle-arrow-right';
 export { default as LucideCircleArrowRight } from './icons/circle-arrow-right';
 export { default as ArrowRightCircle } from './icons/arrow-right-circle';
 export { default as ArrowRightCircleIcon } from './icons/arrow-right-circle';
 export { default as LucideArrowRightCircle } from './icons/arrow-right-circle';
-
-// CircleArrowOutUpRight aliases
-export { default as CircleArrowOutUpRightIcon } from './icons/circle-arrow-out-up-right';
-export { default as LucideCircleArrowOutUpRight } from './icons/circle-arrow-out-up-right';
-export { default as ArrowUpRightFromCircle } from './icons/arrow-up-right-from-circle';
-export { default as ArrowUpRightFromCircleIcon } from './icons/arrow-up-right-from-circle';
-export { default as LucideArrowUpRightFromCircle } from './icons/arrow-up-right-from-circle';
 
 // CircleArrowUp aliases
 export { default as CircleArrowUpIcon } from './icons/circle-arrow-up';
@@ -5298,19 +5298,12 @@ export { default as ArrowUpCircle } from './icons/arrow-up-circle';
 export { default as ArrowUpCircleIcon } from './icons/arrow-up-circle';
 export { default as LucideArrowUpCircle } from './icons/arrow-up-circle';
 
-// CircleArrowOutUpLeft aliases
-export { default as CircleArrowOutUpLeftIcon } from './icons/circle-arrow-out-up-left';
-export { default as LucideCircleArrowOutUpLeft } from './icons/circle-arrow-out-up-left';
-export { default as ArrowUpLeftFromCircle } from './icons/arrow-up-left-from-circle';
-export { default as ArrowUpLeftFromCircleIcon } from './icons/arrow-up-left-from-circle';
-export { default as LucideArrowUpLeftFromCircle } from './icons/arrow-up-left-from-circle';
-
-// CircleCheckBig aliases
-export { default as CircleCheckBigIcon } from './icons/circle-check-big';
-export { default as LucideCircleCheckBig } from './icons/circle-check-big';
-export { default as CheckCircle } from './icons/check-circle';
-export { default as CheckCircleIcon } from './icons/check-circle';
-export { default as LucideCheckCircle } from './icons/check-circle';
+// CircleChevronLeft aliases
+export { default as CircleChevronLeftIcon } from './icons/circle-chevron-left';
+export { default as LucideCircleChevronLeft } from './icons/circle-chevron-left';
+export { default as ChevronLeftCircle } from './icons/chevron-left-circle';
+export { default as ChevronLeftCircleIcon } from './icons/chevron-left-circle';
+export { default as LucideChevronLeftCircle } from './icons/chevron-left-circle';
 
 // CircleCheck aliases
 export { default as CircleCheckIcon } from './icons/circle-check';
@@ -5319,26 +5312,19 @@ export { default as CheckCircle2 } from './icons/check-circle-2';
 export { default as CheckCircle2Icon } from './icons/check-circle-2';
 export { default as LucideCheckCircle2 } from './icons/check-circle-2';
 
-// CircleChevronLeft aliases
-export { default as CircleChevronLeftIcon } from './icons/circle-chevron-left';
-export { default as LucideCircleChevronLeft } from './icons/circle-chevron-left';
-export { default as ChevronLeftCircle } from './icons/chevron-left-circle';
-export { default as ChevronLeftCircleIcon } from './icons/chevron-left-circle';
-export { default as LucideChevronLeftCircle } from './icons/chevron-left-circle';
+// CircleCheckBig aliases
+export { default as CircleCheckBigIcon } from './icons/circle-check-big';
+export { default as LucideCircleCheckBig } from './icons/circle-check-big';
+export { default as CheckCircle } from './icons/check-circle';
+export { default as CheckCircleIcon } from './icons/check-circle';
+export { default as LucideCheckCircle } from './icons/check-circle';
 
-// CircleChevronRight aliases
-export { default as CircleChevronRightIcon } from './icons/circle-chevron-right';
-export { default as LucideCircleChevronRight } from './icons/circle-chevron-right';
-export { default as ChevronRightCircle } from './icons/chevron-right-circle';
-export { default as ChevronRightCircleIcon } from './icons/chevron-right-circle';
-export { default as LucideChevronRightCircle } from './icons/chevron-right-circle';
-
-// CircleChevronUp aliases
-export { default as CircleChevronUpIcon } from './icons/circle-chevron-up';
-export { default as LucideCircleChevronUp } from './icons/circle-chevron-up';
-export { default as ChevronUpCircle } from './icons/chevron-up-circle';
-export { default as ChevronUpCircleIcon } from './icons/chevron-up-circle';
-export { default as LucideChevronUpCircle } from './icons/chevron-up-circle';
+// CircleArrowOutUpRight aliases
+export { default as CircleArrowOutUpRightIcon } from './icons/circle-arrow-out-up-right';
+export { default as LucideCircleArrowOutUpRight } from './icons/circle-arrow-out-up-right';
+export { default as ArrowUpRightFromCircle } from './icons/arrow-up-right-from-circle';
+export { default as ArrowUpRightFromCircleIcon } from './icons/arrow-up-right-from-circle';
+export { default as LucideArrowUpRightFromCircle } from './icons/arrow-up-right-from-circle';
 
 // CircleChevronDown aliases
 export { default as CircleChevronDownIcon } from './icons/circle-chevron-down';
@@ -5347,6 +5333,20 @@ export { default as ChevronDownCircle } from './icons/chevron-down-circle';
 export { default as ChevronDownCircleIcon } from './icons/chevron-down-circle';
 export { default as LucideChevronDownCircle } from './icons/chevron-down-circle';
 
+// CircleDivide aliases
+export { default as CircleDivideIcon } from './icons/circle-divide';
+export { default as LucideCircleDivide } from './icons/circle-divide';
+export { default as DivideCircle } from './icons/divide-circle';
+export { default as DivideCircleIcon } from './icons/divide-circle';
+export { default as LucideDivideCircle } from './icons/divide-circle';
+
+// CircleChevronUp aliases
+export { default as CircleChevronUpIcon } from './icons/circle-chevron-up';
+export { default as LucideCircleChevronUp } from './icons/circle-chevron-up';
+export { default as ChevronUpCircle } from './icons/chevron-up-circle';
+export { default as ChevronUpCircleIcon } from './icons/chevron-up-circle';
+export { default as LucideChevronUpCircle } from './icons/chevron-up-circle';
+
 // CircleGauge aliases
 export { default as CircleGaugeIcon } from './icons/circle-gauge';
 export { default as LucideCircleGauge } from './icons/circle-gauge';
@@ -5354,12 +5354,12 @@ export { default as GaugeCircle } from './icons/gauge-circle';
 export { default as GaugeCircleIcon } from './icons/gauge-circle';
 export { default as LucideGaugeCircle } from './icons/gauge-circle';
 
-// CircleDivide aliases
-export { default as CircleDivideIcon } from './icons/circle-divide';
-export { default as LucideCircleDivide } from './icons/circle-divide';
-export { default as DivideCircle } from './icons/divide-circle';
-export { default as DivideCircleIcon } from './icons/divide-circle';
-export { default as LucideDivideCircle } from './icons/divide-circle';
+// CircleChevronRight aliases
+export { default as CircleChevronRightIcon } from './icons/circle-chevron-right';
+export { default as LucideCircleChevronRight } from './icons/circle-chevron-right';
+export { default as ChevronRightCircle } from './icons/chevron-right-circle';
+export { default as ChevronRightCircleIcon } from './icons/chevron-right-circle';
+export { default as LucideChevronRightCircle } from './icons/chevron-right-circle';
 
 // CircleHelp aliases
 export { default as CircleHelpIcon } from './icons/circle-help';
@@ -5375,6 +5375,20 @@ export { default as MinusCircle } from './icons/minus-circle';
 export { default as MinusCircleIcon } from './icons/minus-circle';
 export { default as LucideMinusCircle } from './icons/minus-circle';
 
+// CircleParkingOff aliases
+export { default as CircleParkingOffIcon } from './icons/circle-parking-off';
+export { default as LucideCircleParkingOff } from './icons/circle-parking-off';
+export { default as ParkingCircleOff } from './icons/parking-circle-off';
+export { default as ParkingCircleOffIcon } from './icons/parking-circle-off';
+export { default as LucideParkingCircleOff } from './icons/parking-circle-off';
+
+// CirclePause aliases
+export { default as CirclePauseIcon } from './icons/circle-pause';
+export { default as LucideCirclePause } from './icons/circle-pause';
+export { default as PauseCircle } from './icons/pause-circle';
+export { default as PauseCircleIcon } from './icons/pause-circle';
+export { default as LucidePauseCircle } from './icons/pause-circle';
+
 // CircleParking aliases
 export { default as CircleParkingIcon } from './icons/circle-parking';
 export { default as LucideCircleParking } from './icons/circle-parking';
@@ -5389,26 +5403,12 @@ export { default as PercentCircle } from './icons/percent-circle';
 export { default as PercentCircleIcon } from './icons/percent-circle';
 export { default as LucidePercentCircle } from './icons/percent-circle';
 
-// CircleParkingOff aliases
-export { default as CircleParkingOffIcon } from './icons/circle-parking-off';
-export { default as LucideCircleParkingOff } from './icons/circle-parking-off';
-export { default as ParkingCircleOff } from './icons/parking-circle-off';
-export { default as ParkingCircleOffIcon } from './icons/parking-circle-off';
-export { default as LucideParkingCircleOff } from './icons/parking-circle-off';
-
-// CirclePlus aliases
-export { default as CirclePlusIcon } from './icons/circle-plus';
-export { default as LucideCirclePlus } from './icons/circle-plus';
-export { default as PlusCircle } from './icons/plus-circle';
-export { default as PlusCircleIcon } from './icons/plus-circle';
-export { default as LucidePlusCircle } from './icons/plus-circle';
-
-// CirclePause aliases
-export { default as CirclePauseIcon } from './icons/circle-pause';
-export { default as LucideCirclePause } from './icons/circle-pause';
-export { default as PauseCircle } from './icons/pause-circle';
-export { default as PauseCircleIcon } from './icons/pause-circle';
-export { default as LucidePauseCircle } from './icons/pause-circle';
+// CirclePower aliases
+export { default as CirclePowerIcon } from './icons/circle-power';
+export { default as LucideCirclePower } from './icons/circle-power';
+export { default as PowerCircle } from './icons/power-circle';
+export { default as PowerCircleIcon } from './icons/power-circle';
+export { default as LucidePowerCircle } from './icons/power-circle';
 
 // CirclePlay aliases
 export { default as CirclePlayIcon } from './icons/circle-play';
@@ -5417,33 +5417,19 @@ export { default as PlayCircle } from './icons/play-circle';
 export { default as PlayCircleIcon } from './icons/play-circle';
 export { default as LucidePlayCircle } from './icons/play-circle';
 
+// CirclePlus aliases
+export { default as CirclePlusIcon } from './icons/circle-plus';
+export { default as LucideCirclePlus } from './icons/circle-plus';
+export { default as PlusCircle } from './icons/plus-circle';
+export { default as PlusCircleIcon } from './icons/plus-circle';
+export { default as LucidePlusCircle } from './icons/plus-circle';
+
 // CircleSlash2 aliases
 export { default as CircleSlash2Icon } from './icons/circle-slash-2';
 export { default as LucideCircleSlash2 } from './icons/circle-slash-2';
 export { default as CircleSlashed } from './icons/circle-slashed';
 export { default as CircleSlashedIcon } from './icons/circle-slashed';
 export { default as LucideCircleSlashed } from './icons/circle-slashed';
-
-// CirclePower aliases
-export { default as CirclePowerIcon } from './icons/circle-power';
-export { default as LucideCirclePower } from './icons/circle-power';
-export { default as PowerCircle } from './icons/power-circle';
-export { default as PowerCircleIcon } from './icons/power-circle';
-export { default as LucidePowerCircle } from './icons/power-circle';
-
-// CircleX aliases
-export { default as CircleXIcon } from './icons/circle-x';
-export { default as LucideCircleX } from './icons/circle-x';
-export { default as XCircle } from './icons/x-circle';
-export { default as XCircleIcon } from './icons/x-circle';
-export { default as LucideXCircle } from './icons/x-circle';
-
-// CircleUserRound aliases
-export { default as CircleUserRoundIcon } from './icons/circle-user-round';
-export { default as LucideCircleUserRound } from './icons/circle-user-round';
-export { default as UserCircle2 } from './icons/user-circle-2';
-export { default as UserCircle2Icon } from './icons/user-circle-2';
-export { default as LucideUserCircle2 } from './icons/user-circle-2';
 
 // CircleUser aliases
 export { default as CircleUserIcon } from './icons/circle-user';
@@ -5452,19 +5438,19 @@ export { default as UserCircle } from './icons/user-circle';
 export { default as UserCircleIcon } from './icons/user-circle';
 export { default as LucideUserCircle } from './icons/user-circle';
 
+// CircleX aliases
+export { default as CircleXIcon } from './icons/circle-x';
+export { default as LucideCircleX } from './icons/circle-x';
+export { default as XCircle } from './icons/x-circle';
+export { default as XCircleIcon } from './icons/x-circle';
+export { default as LucideXCircle } from './icons/x-circle';
+
 // CircleStop aliases
 export { default as CircleStopIcon } from './icons/circle-stop';
 export { default as LucideCircleStop } from './icons/circle-stop';
 export { default as StopCircle } from './icons/stop-circle';
 export { default as StopCircleIcon } from './icons/stop-circle';
 export { default as LucideStopCircle } from './icons/stop-circle';
-
-// ClipboardPen aliases
-export { default as ClipboardPenIcon } from './icons/clipboard-pen';
-export { default as LucideClipboardPen } from './icons/clipboard-pen';
-export { default as ClipboardEdit } from './icons/clipboard-edit';
-export { default as ClipboardEditIcon } from './icons/clipboard-edit';
-export { default as LucideClipboardEdit } from './icons/clipboard-edit';
 
 // ClipboardPenLine aliases
 export { default as ClipboardPenLineIcon } from './icons/clipboard-pen-line';
@@ -5480,12 +5466,26 @@ export { default as UploadCloud } from './icons/upload-cloud';
 export { default as UploadCloudIcon } from './icons/upload-cloud';
 export { default as LucideUploadCloud } from './icons/upload-cloud';
 
+// ClipboardPen aliases
+export { default as ClipboardPenIcon } from './icons/clipboard-pen';
+export { default as LucideClipboardPen } from './icons/clipboard-pen';
+export { default as ClipboardEdit } from './icons/clipboard-edit';
+export { default as ClipboardEditIcon } from './icons/clipboard-edit';
+export { default as LucideClipboardEdit } from './icons/clipboard-edit';
+
 // CloudDownload aliases
 export { default as CloudDownloadIcon } from './icons/cloud-download';
 export { default as LucideCloudDownload } from './icons/cloud-download';
 export { default as DownloadCloud } from './icons/download-cloud';
 export { default as DownloadCloudIcon } from './icons/download-cloud';
 export { default as LucideDownloadCloud } from './icons/download-cloud';
+
+// CircleUserRound aliases
+export { default as CircleUserRoundIcon } from './icons/circle-user-round';
+export { default as LucideCircleUserRound } from './icons/circle-user-round';
+export { default as UserCircle2 } from './icons/user-circle-2';
+export { default as UserCircle2Icon } from './icons/user-circle-2';
+export { default as LucideUserCircle2 } from './icons/user-circle-2';
 
 // CodeXml aliases
 export { default as CodeXmlIcon } from './icons/code-xml';
@@ -5494,12 +5494,26 @@ export { default as Code2 } from './icons/code-2';
 export { default as Code2Icon } from './icons/code-2';
 export { default as LucideCode2 } from './icons/code-2';
 
+// Columns3 aliases
+export { default as Columns3Icon } from './icons/columns-3';
+export { default as LucideColumns3 } from './icons/columns-3';
+export { default as PanelsLeftRight } from './icons/panels-left-right';
+export { default as PanelsLeftRightIcon } from './icons/panels-left-right';
+export { default as LucidePanelsLeftRight } from './icons/panels-left-right';
+
 // Columns2 aliases
 export { default as Columns2Icon } from './icons/columns-2';
 export { default as LucideColumns2 } from './icons/columns-2';
 export { default as Columns } from './icons/columns';
 export { default as ColumnsIcon } from './icons/columns';
 export { default as LucideColumns } from './icons/columns';
+
+// DiamondPercent aliases
+export { default as DiamondPercentIcon } from './icons/diamond-percent';
+export { default as LucideDiamondPercent } from './icons/diamond-percent';
+export { default as PercentDiamond } from './icons/percent-diamond';
+export { default as PercentDiamondIcon } from './icons/percent-diamond';
+export { default as LucidePercentDiamond } from './icons/percent-diamond';
 
 // ContactRound aliases
 export { default as ContactRoundIcon } from './icons/contact-round';
@@ -5508,26 +5522,12 @@ export { default as Contact2 } from './icons/contact-2';
 export { default as Contact2Icon } from './icons/contact-2';
 export { default as LucideContact2 } from './icons/contact-2';
 
-// Columns3 aliases
-export { default as Columns3Icon } from './icons/columns-3';
-export { default as LucideColumns3 } from './icons/columns-3';
-export { default as PanelsLeftRight } from './icons/panels-left-right';
-export { default as PanelsLeftRightIcon } from './icons/panels-left-right';
-export { default as LucidePanelsLeftRight } from './icons/panels-left-right';
-
 // Earth aliases
 export { default as EarthIcon } from './icons/earth';
 export { default as LucideEarth } from './icons/earth';
 export { default as Globe2 } from './icons/globe-2';
 export { default as Globe2Icon } from './icons/globe-2';
 export { default as LucideGlobe2 } from './icons/globe-2';
-
-// DiamondPercent aliases
-export { default as DiamondPercentIcon } from './icons/diamond-percent';
-export { default as LucideDiamondPercent } from './icons/diamond-percent';
-export { default as PercentDiamond } from './icons/percent-diamond';
-export { default as PercentDiamondIcon } from './icons/percent-diamond';
-export { default as LucidePercentDiamond } from './icons/percent-diamond';
 
 // EllipsisVertical aliases
 export { default as EllipsisVerticalIcon } from './icons/ellipsis-vertical';
@@ -5543,19 +5543,12 @@ export { default as MoreHorizontal } from './icons/more-horizontal';
 export { default as MoreHorizontalIcon } from './icons/more-horizontal';
 export { default as LucideMoreHorizontal } from './icons/more-horizontal';
 
-// FileAxis3d aliases
-export { default as FileAxis3dIcon } from './icons/file-axis-3d';
-export { default as LucideFileAxis3d } from './icons/file-axis-3d';
-export { default as FileAxis3D } from './icons/file-axis-3-d';
-export { default as FileAxis3DIcon } from './icons/file-axis-3-d';
-export { default as LucideFileAxis3D } from './icons/file-axis-3-d';
-
-// FilePen aliases
-export { default as FilePenIcon } from './icons/file-pen';
-export { default as LucideFilePen } from './icons/file-pen';
-export { default as FileEdit } from './icons/file-edit';
-export { default as FileEditIcon } from './icons/file-edit';
-export { default as LucideFileEdit } from './icons/file-edit';
+// FileCog aliases
+export { default as FileCogIcon } from './icons/file-cog';
+export { default as LucideFileCog } from './icons/file-cog';
+export { default as FileCog2 } from './icons/file-cog-2';
+export { default as FileCog2Icon } from './icons/file-cog-2';
+export { default as LucideFileCog2 } from './icons/file-cog-2';
 
 // FilePenLine aliases
 export { default as FilePenLineIcon } from './icons/file-pen-line';
@@ -5564,19 +5557,12 @@ export { default as FileSignature } from './icons/file-signature';
 export { default as FileSignatureIcon } from './icons/file-signature';
 export { default as LucideFileSignature } from './icons/file-signature';
 
-// FileCog aliases
-export { default as FileCogIcon } from './icons/file-cog';
-export { default as LucideFileCog } from './icons/file-cog';
-export { default as FileCog2 } from './icons/file-cog-2';
-export { default as FileCog2Icon } from './icons/file-cog-2';
-export { default as LucideFileCog2 } from './icons/file-cog-2';
-
-// Grid2x2 aliases
-export { default as Grid2x2Icon } from './icons/grid-2x2';
-export { default as LucideGrid2x2 } from './icons/grid-2x2';
-export { default as Grid2X2 } from './icons/grid-2-x-2';
-export { default as Grid2X2Icon } from './icons/grid-2-x-2';
-export { default as LucideGrid2X2 } from './icons/grid-2-x-2';
+// FileAxis3d aliases
+export { default as FileAxis3dIcon } from './icons/file-axis-3d';
+export { default as LucideFileAxis3d } from './icons/file-axis-3d';
+export { default as FileAxis3D } from './icons/file-axis-3-d';
+export { default as FileAxis3DIcon } from './icons/file-axis-3-d';
+export { default as LucideFileAxis3D } from './icons/file-axis-3-d';
 
 // GitCommitHorizontal aliases
 export { default as GitCommitHorizontalIcon } from './icons/git-commit-horizontal';
@@ -5585,20 +5571,6 @@ export { default as GitCommit } from './icons/git-commit';
 export { default as GitCommitIcon } from './icons/git-commit';
 export { default as LucideGitCommit } from './icons/git-commit';
 
-// FolderCog aliases
-export { default as FolderCogIcon } from './icons/folder-cog';
-export { default as LucideFolderCog } from './icons/folder-cog';
-export { default as FolderCog2 } from './icons/folder-cog-2';
-export { default as FolderCog2Icon } from './icons/folder-cog-2';
-export { default as LucideFolderCog2 } from './icons/folder-cog-2';
-
-// IceCreamBowl aliases
-export { default as IceCreamBowlIcon } from './icons/ice-cream-bowl';
-export { default as LucideIceCreamBowl } from './icons/ice-cream-bowl';
-export { default as IceCream2 } from './icons/ice-cream-2';
-export { default as IceCream2Icon } from './icons/ice-cream-2';
-export { default as LucideIceCream2 } from './icons/ice-cream-2';
-
 // FolderPen aliases
 export { default as FolderPenIcon } from './icons/folder-pen';
 export { default as LucideFolderPen } from './icons/folder-pen';
@@ -5606,15 +5578,26 @@ export { default as FolderEdit } from './icons/folder-edit';
 export { default as FolderEditIcon } from './icons/folder-edit';
 export { default as LucideFolderEdit } from './icons/folder-edit';
 
-// Grid3x3 aliases
-export { default as Grid3x3Icon } from './icons/grid-3x3';
-export { default as LucideGrid3x3 } from './icons/grid-3x3';
-export { default as Grid } from './icons/grid';
-export { default as GridIcon } from './icons/grid';
-export { default as LucideGrid } from './icons/grid';
-export { default as Grid3X3 } from './icons/grid-3-x-3';
-export { default as Grid3X3Icon } from './icons/grid-3-x-3';
-export { default as LucideGrid3X3 } from './icons/grid-3-x-3';
+// FilePen aliases
+export { default as FilePenIcon } from './icons/file-pen';
+export { default as LucideFilePen } from './icons/file-pen';
+export { default as FileEdit } from './icons/file-edit';
+export { default as FileEditIcon } from './icons/file-edit';
+export { default as LucideFileEdit } from './icons/file-edit';
+
+// FolderCog aliases
+export { default as FolderCogIcon } from './icons/folder-cog';
+export { default as LucideFolderCog } from './icons/folder-cog';
+export { default as FolderCog2 } from './icons/folder-cog-2';
+export { default as FolderCog2Icon } from './icons/folder-cog-2';
+export { default as LucideFolderCog2 } from './icons/folder-cog-2';
+
+// Grid2x2 aliases
+export { default as Grid2x2Icon } from './icons/grid-2x2';
+export { default as LucideGrid2x2 } from './icons/grid-2x2';
+export { default as Grid2X2 } from './icons/grid-2-x-2';
+export { default as Grid2X2Icon } from './icons/grid-2-x-2';
+export { default as LucideGrid2X2 } from './icons/grid-2-x-2';
 
 // HandHelping aliases
 export { default as HandHelpingIcon } from './icons/hand-helping';
@@ -5623,12 +5606,22 @@ export { default as HelpingHand } from './icons/helping-hand';
 export { default as HelpingHandIcon } from './icons/helping-hand';
 export { default as LucideHelpingHand } from './icons/helping-hand';
 
-// IceCreamCone aliases
-export { default as IceCreamConeIcon } from './icons/ice-cream-cone';
-export { default as LucideIceCreamCone } from './icons/ice-cream-cone';
-export { default as IceCream } from './icons/ice-cream';
-export { default as IceCreamIcon } from './icons/ice-cream';
-export { default as LucideIceCream } from './icons/ice-cream';
+// Grid3x3 aliases
+export { default as Grid3x3Icon } from './icons/grid-3x3';
+export { default as LucideGrid3x3 } from './icons/grid-3x3';
+export { default as Grid3X3 } from './icons/grid-3-x-3';
+export { default as Grid3X3Icon } from './icons/grid-3-x-3';
+export { default as LucideGrid3X3 } from './icons/grid-3-x-3';
+export { default as Grid } from './icons/grid';
+export { default as GridIcon } from './icons/grid';
+export { default as LucideGrid } from './icons/grid';
+
+// IceCreamBowl aliases
+export { default as IceCreamBowlIcon } from './icons/ice-cream-bowl';
+export { default as LucideIceCreamBowl } from './icons/ice-cream-bowl';
+export { default as IceCream2 } from './icons/ice-cream-2';
+export { default as IceCream2Icon } from './icons/ice-cream-2';
+export { default as LucideIceCream2 } from './icons/ice-cream-2';
 
 // IndentDecrease aliases
 export { default as IndentDecreaseIcon } from './icons/indent-decrease';
@@ -5637,12 +5630,12 @@ export { default as Outdent } from './icons/outdent';
 export { default as OutdentIcon } from './icons/outdent';
 export { default as LucideOutdent } from './icons/outdent';
 
-// LaptopMinimal aliases
-export { default as LaptopMinimalIcon } from './icons/laptop-minimal';
-export { default as LucideLaptopMinimal } from './icons/laptop-minimal';
-export { default as Laptop2 } from './icons/laptop-2';
-export { default as Laptop2Icon } from './icons/laptop-2';
-export { default as LucideLaptop2 } from './icons/laptop-2';
+// IceCreamCone aliases
+export { default as IceCreamConeIcon } from './icons/ice-cream-cone';
+export { default as LucideIceCreamCone } from './icons/ice-cream-cone';
+export { default as IceCream } from './icons/ice-cream';
+export { default as IceCreamIcon } from './icons/ice-cream';
+export { default as LucideIceCream } from './icons/ice-cream';
 
 // IndentIncrease aliases
 export { default as IndentIncreaseIcon } from './icons/indent-increase';
@@ -5658,6 +5651,13 @@ export { default as Loader2 } from './icons/loader-2';
 export { default as Loader2Icon } from './icons/loader-2';
 export { default as LucideLoader2 } from './icons/loader-2';
 
+// LaptopMinimal aliases
+export { default as LaptopMinimalIcon } from './icons/laptop-minimal';
+export { default as LucideLaptopMinimal } from './icons/laptop-minimal';
+export { default as Laptop2 } from './icons/laptop-2';
+export { default as Laptop2Icon } from './icons/laptop-2';
+export { default as LucideLaptop2 } from './icons/laptop-2';
+
 // LockKeyholeOpen aliases
 export { default as LockKeyholeOpenIcon } from './icons/lock-keyhole-open';
 export { default as LucideLockKeyholeOpen } from './icons/lock-keyhole-open';
@@ -5671,6 +5671,13 @@ export { default as LucideLockOpen } from './icons/lock-open';
 export { default as Unlock } from './icons/unlock';
 export { default as UnlockIcon } from './icons/unlock';
 export { default as LucideUnlock } from './icons/unlock';
+
+// OctagonPause aliases
+export { default as OctagonPauseIcon } from './icons/octagon-pause';
+export { default as LucideOctagonPause } from './icons/octagon-pause';
+export { default as PauseOctagon } from './icons/pause-octagon';
+export { default as PauseOctagonIcon } from './icons/pause-octagon';
+export { default as LucidePauseOctagon } from './icons/pause-octagon';
 
 // MicVocal aliases
 export { default as MicVocalIcon } from './icons/mic-vocal';
@@ -5686,13 +5693,6 @@ export { default as Move3D } from './icons/move-3-d';
 export { default as Move3DIcon } from './icons/move-3-d';
 export { default as LucideMove3D } from './icons/move-3-d';
 
-// OctagonAlert aliases
-export { default as OctagonAlertIcon } from './icons/octagon-alert';
-export { default as LucideOctagonAlert } from './icons/octagon-alert';
-export { default as AlertOctagon } from './icons/alert-octagon';
-export { default as AlertOctagonIcon } from './icons/alert-octagon';
-export { default as LucideAlertOctagon } from './icons/alert-octagon';
-
 // OctagonX aliases
 export { default as OctagonXIcon } from './icons/octagon-x';
 export { default as LucideOctagonX } from './icons/octagon-x';
@@ -5700,19 +5700,12 @@ export { default as XOctagon } from './icons/x-octagon';
 export { default as XOctagonIcon } from './icons/x-octagon';
 export { default as LucideXOctagon } from './icons/x-octagon';
 
-// PanelBottomDashed aliases
-export { default as PanelBottomDashedIcon } from './icons/panel-bottom-dashed';
-export { default as LucidePanelBottomDashed } from './icons/panel-bottom-dashed';
-export { default as PanelBottomInactive } from './icons/panel-bottom-inactive';
-export { default as PanelBottomInactiveIcon } from './icons/panel-bottom-inactive';
-export { default as LucidePanelBottomInactive } from './icons/panel-bottom-inactive';
-
-// OctagonPause aliases
-export { default as OctagonPauseIcon } from './icons/octagon-pause';
-export { default as LucideOctagonPause } from './icons/octagon-pause';
-export { default as PauseOctagon } from './icons/pause-octagon';
-export { default as PauseOctagonIcon } from './icons/pause-octagon';
-export { default as LucidePauseOctagon } from './icons/pause-octagon';
+// OctagonAlert aliases
+export { default as OctagonAlertIcon } from './icons/octagon-alert';
+export { default as LucideOctagonAlert } from './icons/octagon-alert';
+export { default as AlertOctagon } from './icons/alert-octagon';
+export { default as AlertOctagonIcon } from './icons/alert-octagon';
+export { default as LucideAlertOctagon } from './icons/alert-octagon';
 
 // PanelLeftClose aliases
 export { default as PanelLeftCloseIcon } from './icons/panel-left-close';
@@ -5721,26 +5714,12 @@ export { default as SidebarClose } from './icons/sidebar-close';
 export { default as SidebarCloseIcon } from './icons/sidebar-close';
 export { default as LucideSidebarClose } from './icons/sidebar-close';
 
-// PanelLeftOpen aliases
-export { default as PanelLeftOpenIcon } from './icons/panel-left-open';
-export { default as LucidePanelLeftOpen } from './icons/panel-left-open';
-export { default as SidebarOpen } from './icons/sidebar-open';
-export { default as SidebarOpenIcon } from './icons/sidebar-open';
-export { default as LucideSidebarOpen } from './icons/sidebar-open';
-
-// PanelLeftDashed aliases
-export { default as PanelLeftDashedIcon } from './icons/panel-left-dashed';
-export { default as LucidePanelLeftDashed } from './icons/panel-left-dashed';
-export { default as PanelLeftInactive } from './icons/panel-left-inactive';
-export { default as PanelLeftInactiveIcon } from './icons/panel-left-inactive';
-export { default as LucidePanelLeftInactive } from './icons/panel-left-inactive';
-
-// PanelLeft aliases
-export { default as PanelLeftIcon } from './icons/panel-left';
-export { default as LucidePanelLeft } from './icons/panel-left';
-export { default as Sidebar } from './icons/sidebar';
-export { default as SidebarIcon } from './icons/sidebar';
-export { default as LucideSidebar } from './icons/sidebar';
+// PanelBottomDashed aliases
+export { default as PanelBottomDashedIcon } from './icons/panel-bottom-dashed';
+export { default as LucidePanelBottomDashed } from './icons/panel-bottom-dashed';
+export { default as PanelBottomInactive } from './icons/panel-bottom-inactive';
+export { default as PanelBottomInactiveIcon } from './icons/panel-bottom-inactive';
+export { default as LucidePanelBottomInactive } from './icons/panel-bottom-inactive';
 
 // PanelRightDashed aliases
 export { default as PanelRightDashedIcon } from './icons/panel-right-dashed';
@@ -5749,19 +5728,40 @@ export { default as PanelRightInactive } from './icons/panel-right-inactive';
 export { default as PanelRightInactiveIcon } from './icons/panel-right-inactive';
 export { default as LucidePanelRightInactive } from './icons/panel-right-inactive';
 
-// PenLine aliases
-export { default as PenLineIcon } from './icons/pen-line';
-export { default as LucidePenLine } from './icons/pen-line';
-export { default as Edit3 } from './icons/edit-3';
-export { default as Edit3Icon } from './icons/edit-3';
-export { default as LucideEdit3 } from './icons/edit-3';
-
 // PanelTopDashed aliases
 export { default as PanelTopDashedIcon } from './icons/panel-top-dashed';
 export { default as LucidePanelTopDashed } from './icons/panel-top-dashed';
 export { default as PanelTopInactive } from './icons/panel-top-inactive';
 export { default as PanelTopInactiveIcon } from './icons/panel-top-inactive';
 export { default as LucidePanelTopInactive } from './icons/panel-top-inactive';
+
+// PanelLeftDashed aliases
+export { default as PanelLeftDashedIcon } from './icons/panel-left-dashed';
+export { default as LucidePanelLeftDashed } from './icons/panel-left-dashed';
+export { default as PanelLeftInactive } from './icons/panel-left-inactive';
+export { default as PanelLeftInactiveIcon } from './icons/panel-left-inactive';
+export { default as LucidePanelLeftInactive } from './icons/panel-left-inactive';
+
+// PanelLeftOpen aliases
+export { default as PanelLeftOpenIcon } from './icons/panel-left-open';
+export { default as LucidePanelLeftOpen } from './icons/panel-left-open';
+export { default as SidebarOpen } from './icons/sidebar-open';
+export { default as SidebarOpenIcon } from './icons/sidebar-open';
+export { default as LucideSidebarOpen } from './icons/sidebar-open';
+
+// PanelLeft aliases
+export { default as PanelLeftIcon } from './icons/panel-left';
+export { default as LucidePanelLeft } from './icons/panel-left';
+export { default as Sidebar } from './icons/sidebar';
+export { default as SidebarIcon } from './icons/sidebar';
+export { default as LucideSidebar } from './icons/sidebar';
+
+// PenLine aliases
+export { default as PenLineIcon } from './icons/pen-line';
+export { default as LucidePenLine } from './icons/pen-line';
+export { default as Edit3 } from './icons/edit-3';
+export { default as Edit3Icon } from './icons/edit-3';
+export { default as LucideEdit3 } from './icons/edit-3';
 
 // Pen aliases
 export { default as PenIcon } from './icons/pen';
@@ -5777,13 +5777,6 @@ export { default as Layout } from './icons/layout';
 export { default as LayoutIcon } from './icons/layout';
 export { default as LucideLayout } from './icons/layout';
 
-// RectangleEllipsis aliases
-export { default as RectangleEllipsisIcon } from './icons/rectangle-ellipsis';
-export { default as LucideRectangleEllipsis } from './icons/rectangle-ellipsis';
-export { default as FormInput } from './icons/form-input';
-export { default as FormInputIcon } from './icons/form-input';
-export { default as LucideFormInput } from './icons/form-input';
-
 // Rotate3d aliases
 export { default as Rotate3dIcon } from './icons/rotate-3d';
 export { default as LucideRotate3d } from './icons/rotate-3d';
@@ -5791,19 +5784,19 @@ export { default as Rotate3D } from './icons/rotate-3-d';
 export { default as Rotate3DIcon } from './icons/rotate-3-d';
 export { default as LucideRotate3D } from './icons/rotate-3-d';
 
+// RectangleEllipsis aliases
+export { default as RectangleEllipsisIcon } from './icons/rectangle-ellipsis';
+export { default as LucideRectangleEllipsis } from './icons/rectangle-ellipsis';
+export { default as FormInput } from './icons/form-input';
+export { default as FormInputIcon } from './icons/form-input';
+export { default as LucideFormInput } from './icons/form-input';
+
 // Rows2 aliases
 export { default as Rows2Icon } from './icons/rows-2';
 export { default as LucideRows2 } from './icons/rows-2';
 export { default as Rows } from './icons/rows';
 export { default as RowsIcon } from './icons/rows';
 export { default as LucideRows } from './icons/rows';
-
-// Rows3 aliases
-export { default as Rows3Icon } from './icons/rows-3';
-export { default as LucideRows3 } from './icons/rows-3';
-export { default as PanelsTopBottom } from './icons/panels-top-bottom';
-export { default as PanelsTopBottomIcon } from './icons/panels-top-bottom';
-export { default as LucidePanelsTopBottom } from './icons/panels-top-bottom';
 
 // Scale3d aliases
 export { default as Scale3dIcon } from './icons/scale-3d';
@@ -5819,12 +5812,12 @@ export { default as SendHorizonal } from './icons/send-horizonal';
 export { default as SendHorizonalIcon } from './icons/send-horizonal';
 export { default as LucideSendHorizonal } from './icons/send-horizonal';
 
-// SlidersVertical aliases
-export { default as SlidersVerticalIcon } from './icons/sliders-vertical';
-export { default as LucideSlidersVertical } from './icons/sliders-vertical';
-export { default as Sliders } from './icons/sliders';
-export { default as SlidersIcon } from './icons/sliders';
-export { default as LucideSliders } from './icons/sliders';
+// Rows3 aliases
+export { default as Rows3Icon } from './icons/rows-3';
+export { default as LucideRows3 } from './icons/rows-3';
+export { default as PanelsTopBottom } from './icons/panels-top-bottom';
+export { default as PanelsTopBottomIcon } from './icons/panels-top-bottom';
+export { default as LucidePanelsTopBottom } from './icons/panels-top-bottom';
 
 // ShieldX aliases
 export { default as ShieldXIcon } from './icons/shield-x';
@@ -5833,12 +5826,26 @@ export { default as ShieldClose } from './icons/shield-close';
 export { default as ShieldCloseIcon } from './icons/shield-close';
 export { default as LucideShieldClose } from './icons/shield-close';
 
+// Sparkles aliases
+export { default as SparklesIcon } from './icons/sparkles';
+export { default as LucideSparkles } from './icons/sparkles';
+export { default as Stars } from './icons/stars';
+export { default as StarsIcon } from './icons/stars';
+export { default as LucideStars } from './icons/stars';
+
 // SquareActivity aliases
 export { default as SquareActivityIcon } from './icons/square-activity';
 export { default as LucideSquareActivity } from './icons/square-activity';
 export { default as ActivitySquare } from './icons/activity-square';
 export { default as ActivitySquareIcon } from './icons/activity-square';
 export { default as LucideActivitySquare } from './icons/activity-square';
+
+// SlidersVertical aliases
+export { default as SlidersVerticalIcon } from './icons/sliders-vertical';
+export { default as LucideSlidersVertical } from './icons/sliders-vertical';
+export { default as Sliders } from './icons/sliders';
+export { default as SlidersIcon } from './icons/sliders';
+export { default as LucideSliders } from './icons/sliders';
 
 // SquareArrowDownLeft aliases
 export { default as SquareArrowDownLeftIcon } from './icons/square-arrow-down-left';
@@ -5847,6 +5854,13 @@ export { default as ArrowDownLeftSquare } from './icons/arrow-down-left-square';
 export { default as ArrowDownLeftSquareIcon } from './icons/arrow-down-left-square';
 export { default as LucideArrowDownLeftSquare } from './icons/arrow-down-left-square';
 
+// SquareArrowDown aliases
+export { default as SquareArrowDownIcon } from './icons/square-arrow-down';
+export { default as LucideSquareArrowDown } from './icons/square-arrow-down';
+export { default as ArrowDownSquare } from './icons/arrow-down-square';
+export { default as ArrowDownSquareIcon } from './icons/arrow-down-square';
+export { default as LucideArrowDownSquare } from './icons/arrow-down-square';
+
 // SquareArrowLeft aliases
 export { default as SquareArrowLeftIcon } from './icons/square-arrow-left';
 export { default as LucideSquareArrowLeft } from './icons/square-arrow-left';
@@ -5854,12 +5868,12 @@ export { default as ArrowLeftSquare } from './icons/arrow-left-square';
 export { default as ArrowLeftSquareIcon } from './icons/arrow-left-square';
 export { default as LucideArrowLeftSquare } from './icons/arrow-left-square';
 
-// Sparkles aliases
-export { default as SparklesIcon } from './icons/sparkles';
-export { default as LucideSparkles } from './icons/sparkles';
-export { default as Stars } from './icons/stars';
-export { default as StarsIcon } from './icons/stars';
-export { default as LucideStars } from './icons/stars';
+// SquareArrowDownRight aliases
+export { default as SquareArrowDownRightIcon } from './icons/square-arrow-down-right';
+export { default as LucideSquareArrowDownRight } from './icons/square-arrow-down-right';
+export { default as ArrowDownRightSquare } from './icons/arrow-down-right-square';
+export { default as ArrowDownRightSquareIcon } from './icons/arrow-down-right-square';
+export { default as LucideArrowDownRightSquare } from './icons/arrow-down-right-square';
 
 // SquareArrowOutDownLeft aliases
 export { default as SquareArrowOutDownLeftIcon } from './icons/square-arrow-out-down-left';
@@ -5867,13 +5881,6 @@ export { default as LucideSquareArrowOutDownLeft } from './icons/square-arrow-ou
 export { default as ArrowDownLeftFromSquare } from './icons/arrow-down-left-from-square';
 export { default as ArrowDownLeftFromSquareIcon } from './icons/arrow-down-left-from-square';
 export { default as LucideArrowDownLeftFromSquare } from './icons/arrow-down-left-from-square';
-
-// SquareArrowDown aliases
-export { default as SquareArrowDownIcon } from './icons/square-arrow-down';
-export { default as LucideSquareArrowDown } from './icons/square-arrow-down';
-export { default as ArrowDownSquare } from './icons/arrow-down-square';
-export { default as ArrowDownSquareIcon } from './icons/arrow-down-square';
-export { default as LucideArrowDownSquare } from './icons/arrow-down-square';
 
 // SquareArrowOutDownRight aliases
 export { default as SquareArrowOutDownRightIcon } from './icons/square-arrow-out-down-right';
@@ -5889,27 +5896,6 @@ export { default as ArrowUpLeftFromSquare } from './icons/arrow-up-left-from-squ
 export { default as ArrowUpLeftFromSquareIcon } from './icons/arrow-up-left-from-square';
 export { default as LucideArrowUpLeftFromSquare } from './icons/arrow-up-left-from-square';
 
-// SquareArrowOutUpRight aliases
-export { default as SquareArrowOutUpRightIcon } from './icons/square-arrow-out-up-right';
-export { default as LucideSquareArrowOutUpRight } from './icons/square-arrow-out-up-right';
-export { default as ArrowUpRightFromSquare } from './icons/arrow-up-right-from-square';
-export { default as ArrowUpRightFromSquareIcon } from './icons/arrow-up-right-from-square';
-export { default as LucideArrowUpRightFromSquare } from './icons/arrow-up-right-from-square';
-
-// SquareArrowUpLeft aliases
-export { default as SquareArrowUpLeftIcon } from './icons/square-arrow-up-left';
-export { default as LucideSquareArrowUpLeft } from './icons/square-arrow-up-left';
-export { default as ArrowUpLeftSquare } from './icons/arrow-up-left-square';
-export { default as ArrowUpLeftSquareIcon } from './icons/arrow-up-left-square';
-export { default as LucideArrowUpLeftSquare } from './icons/arrow-up-left-square';
-
-// SquareArrowDownRight aliases
-export { default as SquareArrowDownRightIcon } from './icons/square-arrow-down-right';
-export { default as LucideSquareArrowDownRight } from './icons/square-arrow-down-right';
-export { default as ArrowDownRightSquare } from './icons/arrow-down-right-square';
-export { default as ArrowDownRightSquareIcon } from './icons/arrow-down-right-square';
-export { default as LucideArrowDownRightSquare } from './icons/arrow-down-right-square';
-
 // SquareArrowRight aliases
 export { default as SquareArrowRightIcon } from './icons/square-arrow-right';
 export { default as LucideSquareArrowRight } from './icons/square-arrow-right';
@@ -5917,19 +5903,12 @@ export { default as ArrowRightSquare } from './icons/arrow-right-square';
 export { default as ArrowRightSquareIcon } from './icons/arrow-right-square';
 export { default as LucideArrowRightSquare } from './icons/arrow-right-square';
 
-// SquareBottomDashedScissors aliases
-export { default as SquareBottomDashedScissorsIcon } from './icons/square-bottom-dashed-scissors';
-export { default as LucideSquareBottomDashedScissors } from './icons/square-bottom-dashed-scissors';
-export { default as ScissorsSquareDashedBottom } from './icons/scissors-square-dashed-bottom';
-export { default as ScissorsSquareDashedBottomIcon } from './icons/scissors-square-dashed-bottom';
-export { default as LucideScissorsSquareDashedBottom } from './icons/scissors-square-dashed-bottom';
-
-// SquareArrowUpRight aliases
-export { default as SquareArrowUpRightIcon } from './icons/square-arrow-up-right';
-export { default as LucideSquareArrowUpRight } from './icons/square-arrow-up-right';
-export { default as ArrowUpRightSquare } from './icons/arrow-up-right-square';
-export { default as ArrowUpRightSquareIcon } from './icons/arrow-up-right-square';
-export { default as LucideArrowUpRightSquare } from './icons/arrow-up-right-square';
+// SquareArrowOutUpRight aliases
+export { default as SquareArrowOutUpRightIcon } from './icons/square-arrow-out-up-right';
+export { default as LucideSquareArrowOutUpRight } from './icons/square-arrow-out-up-right';
+export { default as ArrowUpRightFromSquare } from './icons/arrow-up-right-from-square';
+export { default as ArrowUpRightFromSquareIcon } from './icons/arrow-up-right-from-square';
+export { default as LucideArrowUpRightFromSquare } from './icons/arrow-up-right-from-square';
 
 // SquareArrowUp aliases
 export { default as SquareArrowUpIcon } from './icons/square-arrow-up';
@@ -5938,26 +5917,12 @@ export { default as ArrowUpSquare } from './icons/arrow-up-square';
 export { default as ArrowUpSquareIcon } from './icons/arrow-up-square';
 export { default as LucideArrowUpSquare } from './icons/arrow-up-square';
 
-// SquareChevronDown aliases
-export { default as SquareChevronDownIcon } from './icons/square-chevron-down';
-export { default as LucideSquareChevronDown } from './icons/square-chevron-down';
-export { default as ChevronDownSquare } from './icons/chevron-down-square';
-export { default as ChevronDownSquareIcon } from './icons/chevron-down-square';
-export { default as LucideChevronDownSquare } from './icons/chevron-down-square';
-
-// SquareCheckBig aliases
-export { default as SquareCheckBigIcon } from './icons/square-check-big';
-export { default as LucideSquareCheckBig } from './icons/square-check-big';
-export { default as CheckSquare } from './icons/check-square';
-export { default as CheckSquareIcon } from './icons/check-square';
-export { default as LucideCheckSquare } from './icons/check-square';
-
-// SquareChevronLeft aliases
-export { default as SquareChevronLeftIcon } from './icons/square-chevron-left';
-export { default as LucideSquareChevronLeft } from './icons/square-chevron-left';
-export { default as ChevronLeftSquare } from './icons/chevron-left-square';
-export { default as ChevronLeftSquareIcon } from './icons/chevron-left-square';
-export { default as LucideChevronLeftSquare } from './icons/chevron-left-square';
+// SquareArrowUpRight aliases
+export { default as SquareArrowUpRightIcon } from './icons/square-arrow-up-right';
+export { default as LucideSquareArrowUpRight } from './icons/square-arrow-up-right';
+export { default as ArrowUpRightSquare } from './icons/arrow-up-right-square';
+export { default as ArrowUpRightSquareIcon } from './icons/arrow-up-right-square';
+export { default as LucideArrowUpRightSquare } from './icons/arrow-up-right-square';
 
 // SquareAsterisk aliases
 export { default as SquareAsteriskIcon } from './icons/square-asterisk';
@@ -5966,12 +5931,47 @@ export { default as AsteriskSquare } from './icons/asterisk-square';
 export { default as AsteriskSquareIcon } from './icons/asterisk-square';
 export { default as LucideAsteriskSquare } from './icons/asterisk-square';
 
+// SquareBottomDashedScissors aliases
+export { default as SquareBottomDashedScissorsIcon } from './icons/square-bottom-dashed-scissors';
+export { default as LucideSquareBottomDashedScissors } from './icons/square-bottom-dashed-scissors';
+export { default as ScissorsSquareDashedBottom } from './icons/scissors-square-dashed-bottom';
+export { default as ScissorsSquareDashedBottomIcon } from './icons/scissors-square-dashed-bottom';
+export { default as LucideScissorsSquareDashedBottom } from './icons/scissors-square-dashed-bottom';
+
+// SquareArrowUpLeft aliases
+export { default as SquareArrowUpLeftIcon } from './icons/square-arrow-up-left';
+export { default as LucideSquareArrowUpLeft } from './icons/square-arrow-up-left';
+export { default as ArrowUpLeftSquare } from './icons/arrow-up-left-square';
+export { default as ArrowUpLeftSquareIcon } from './icons/arrow-up-left-square';
+export { default as LucideArrowUpLeftSquare } from './icons/arrow-up-left-square';
+
+// SquareCheckBig aliases
+export { default as SquareCheckBigIcon } from './icons/square-check-big';
+export { default as LucideSquareCheckBig } from './icons/square-check-big';
+export { default as CheckSquare } from './icons/check-square';
+export { default as CheckSquareIcon } from './icons/check-square';
+export { default as LucideCheckSquare } from './icons/check-square';
+
 // SquareCheck aliases
 export { default as SquareCheckIcon } from './icons/square-check';
 export { default as LucideSquareCheck } from './icons/square-check';
 export { default as CheckSquare2 } from './icons/check-square-2';
 export { default as CheckSquare2Icon } from './icons/check-square-2';
 export { default as LucideCheckSquare2 } from './icons/check-square-2';
+
+// SquareChevronDown aliases
+export { default as SquareChevronDownIcon } from './icons/square-chevron-down';
+export { default as LucideSquareChevronDown } from './icons/square-chevron-down';
+export { default as ChevronDownSquare } from './icons/chevron-down-square';
+export { default as ChevronDownSquareIcon } from './icons/chevron-down-square';
+export { default as LucideChevronDownSquare } from './icons/chevron-down-square';
+
+// SquareChevronLeft aliases
+export { default as SquareChevronLeftIcon } from './icons/square-chevron-left';
+export { default as LucideSquareChevronLeft } from './icons/square-chevron-left';
+export { default as ChevronLeftSquare } from './icons/chevron-left-square';
+export { default as ChevronLeftSquareIcon } from './icons/chevron-left-square';
+export { default as LucideChevronLeftSquare } from './icons/chevron-left-square';
 
 // SquareChevronRight aliases
 export { default as SquareChevronRightIcon } from './icons/square-chevron-right';
@@ -5980,26 +5980,12 @@ export { default as ChevronRightSquare } from './icons/chevron-right-square';
 export { default as ChevronRightSquareIcon } from './icons/chevron-right-square';
 export { default as LucideChevronRightSquare } from './icons/chevron-right-square';
 
-// SquareCode aliases
-export { default as SquareCodeIcon } from './icons/square-code';
-export { default as LucideSquareCode } from './icons/square-code';
-export { default as CodeSquare } from './icons/code-square';
-export { default as CodeSquareIcon } from './icons/code-square';
-export { default as LucideCodeSquare } from './icons/code-square';
-
 // SquareDashedKanban aliases
 export { default as SquareDashedKanbanIcon } from './icons/square-dashed-kanban';
 export { default as LucideSquareDashedKanban } from './icons/square-dashed-kanban';
 export { default as KanbanSquareDashed } from './icons/kanban-square-dashed';
 export { default as KanbanSquareDashedIcon } from './icons/kanban-square-dashed';
 export { default as LucideKanbanSquareDashed } from './icons/kanban-square-dashed';
-
-// SquareDashedMousePointer aliases
-export { default as SquareDashedMousePointerIcon } from './icons/square-dashed-mouse-pointer';
-export { default as LucideSquareDashedMousePointer } from './icons/square-dashed-mouse-pointer';
-export { default as MousePointerSquareDashed } from './icons/mouse-pointer-square-dashed';
-export { default as MousePointerSquareDashedIcon } from './icons/mouse-pointer-square-dashed';
-export { default as LucideMousePointerSquareDashed } from './icons/mouse-pointer-square-dashed';
 
 // SquareChevronUp aliases
 export { default as SquareChevronUpIcon } from './icons/square-chevron-up';
@@ -6008,33 +5994,19 @@ export { default as ChevronUpSquare } from './icons/chevron-up-square';
 export { default as ChevronUpSquareIcon } from './icons/chevron-up-square';
 export { default as LucideChevronUpSquare } from './icons/chevron-up-square';
 
-// SquareEqual aliases
-export { default as SquareEqualIcon } from './icons/square-equal';
-export { default as LucideSquareEqual } from './icons/square-equal';
-export { default as EqualSquare } from './icons/equal-square';
-export { default as EqualSquareIcon } from './icons/equal-square';
-export { default as LucideEqualSquare } from './icons/equal-square';
+// SquareCode aliases
+export { default as SquareCodeIcon } from './icons/square-code';
+export { default as LucideSquareCode } from './icons/square-code';
+export { default as CodeSquare } from './icons/code-square';
+export { default as CodeSquareIcon } from './icons/code-square';
+export { default as LucideCodeSquare } from './icons/code-square';
 
-// SquareDot aliases
-export { default as SquareDotIcon } from './icons/square-dot';
-export { default as LucideSquareDot } from './icons/square-dot';
-export { default as DotSquare } from './icons/dot-square';
-export { default as DotSquareIcon } from './icons/dot-square';
-export { default as LucideDotSquare } from './icons/dot-square';
-
-// SquareFunction aliases
-export { default as SquareFunctionIcon } from './icons/square-function';
-export { default as LucideSquareFunction } from './icons/square-function';
-export { default as FunctionSquare } from './icons/function-square';
-export { default as FunctionSquareIcon } from './icons/function-square';
-export { default as LucideFunctionSquare } from './icons/function-square';
-
-// SquareGanttChart aliases
-export { default as SquareGanttChartIcon } from './icons/square-gantt-chart';
-export { default as LucideSquareGanttChart } from './icons/square-gantt-chart';
-export { default as GanttChartSquare } from './icons/gantt-chart-square';
-export { default as GanttChartSquareIcon } from './icons/gantt-chart-square';
-export { default as LucideGanttChartSquare } from './icons/gantt-chart-square';
+// SquareDashedMousePointer aliases
+export { default as SquareDashedMousePointerIcon } from './icons/square-dashed-mouse-pointer';
+export { default as LucideSquareDashedMousePointer } from './icons/square-dashed-mouse-pointer';
+export { default as MousePointerSquareDashed } from './icons/mouse-pointer-square-dashed';
+export { default as MousePointerSquareDashedIcon } from './icons/mouse-pointer-square-dashed';
+export { default as LucideMousePointerSquareDashed } from './icons/mouse-pointer-square-dashed';
 
 // SquareDivide aliases
 export { default as SquareDivideIcon } from './icons/square-divide';
@@ -6043,26 +6015,26 @@ export { default as DivideSquare } from './icons/divide-square';
 export { default as DivideSquareIcon } from './icons/divide-square';
 export { default as LucideDivideSquare } from './icons/divide-square';
 
-// SquareLibrary aliases
-export { default as SquareLibraryIcon } from './icons/square-library';
-export { default as LucideSquareLibrary } from './icons/square-library';
-export { default as LibrarySquare } from './icons/library-square';
-export { default as LibrarySquareIcon } from './icons/library-square';
-export { default as LucideLibrarySquare } from './icons/library-square';
+// SquareDot aliases
+export { default as SquareDotIcon } from './icons/square-dot';
+export { default as LucideSquareDot } from './icons/square-dot';
+export { default as DotSquare } from './icons/dot-square';
+export { default as DotSquareIcon } from './icons/dot-square';
+export { default as LucideDotSquare } from './icons/dot-square';
 
-// SquareM aliases
-export { default as SquareMIcon } from './icons/square-m';
-export { default as LucideSquareM } from './icons/square-m';
-export { default as MSquare } from './icons/m-square';
-export { default as MSquareIcon } from './icons/m-square';
-export { default as LucideMSquare } from './icons/m-square';
+// SquareEqual aliases
+export { default as SquareEqualIcon } from './icons/square-equal';
+export { default as LucideSquareEqual } from './icons/square-equal';
+export { default as EqualSquare } from './icons/equal-square';
+export { default as EqualSquareIcon } from './icons/equal-square';
+export { default as LucideEqualSquare } from './icons/equal-square';
 
-// SquareMenu aliases
-export { default as SquareMenuIcon } from './icons/square-menu';
-export { default as LucideSquareMenu } from './icons/square-menu';
-export { default as MenuSquare } from './icons/menu-square';
-export { default as MenuSquareIcon } from './icons/menu-square';
-export { default as LucideMenuSquare } from './icons/menu-square';
+// SquareGanttChart aliases
+export { default as SquareGanttChartIcon } from './icons/square-gantt-chart';
+export { default as LucideSquareGanttChart } from './icons/square-gantt-chart';
+export { default as GanttChartSquare } from './icons/gantt-chart-square';
+export { default as GanttChartSquareIcon } from './icons/gantt-chart-square';
+export { default as LucideGanttChartSquare } from './icons/gantt-chart-square';
 
 // SquareKanban aliases
 export { default as SquareKanbanIcon } from './icons/square-kanban';
@@ -6078,19 +6050,26 @@ export { default as MinusSquare } from './icons/minus-square';
 export { default as MinusSquareIcon } from './icons/minus-square';
 export { default as LucideMinusSquare } from './icons/minus-square';
 
-// SquareMousePointer aliases
-export { default as SquareMousePointerIcon } from './icons/square-mouse-pointer';
-export { default as LucideSquareMousePointer } from './icons/square-mouse-pointer';
-export { default as Inspect } from './icons/inspect';
-export { default as InspectIcon } from './icons/inspect';
-export { default as LucideInspect } from './icons/inspect';
+// SquareLibrary aliases
+export { default as SquareLibraryIcon } from './icons/square-library';
+export { default as LucideSquareLibrary } from './icons/square-library';
+export { default as LibrarySquare } from './icons/library-square';
+export { default as LibrarySquareIcon } from './icons/library-square';
+export { default as LucideLibrarySquare } from './icons/library-square';
 
-// SquareParkingOff aliases
-export { default as SquareParkingOffIcon } from './icons/square-parking-off';
-export { default as LucideSquareParkingOff } from './icons/square-parking-off';
-export { default as ParkingSquareOff } from './icons/parking-square-off';
-export { default as ParkingSquareOffIcon } from './icons/parking-square-off';
-export { default as LucideParkingSquareOff } from './icons/parking-square-off';
+// SquareFunction aliases
+export { default as SquareFunctionIcon } from './icons/square-function';
+export { default as LucideSquareFunction } from './icons/square-function';
+export { default as FunctionSquare } from './icons/function-square';
+export { default as FunctionSquareIcon } from './icons/function-square';
+export { default as LucideFunctionSquare } from './icons/function-square';
+
+// SquareM aliases
+export { default as SquareMIcon } from './icons/square-m';
+export { default as LucideSquareM } from './icons/square-m';
+export { default as MSquare } from './icons/m-square';
+export { default as MSquareIcon } from './icons/m-square';
+export { default as LucideMSquare } from './icons/m-square';
 
 // SquareParking aliases
 export { default as SquareParkingIcon } from './icons/square-parking';
@@ -6098,6 +6077,34 @@ export { default as LucideSquareParking } from './icons/square-parking';
 export { default as ParkingSquare } from './icons/parking-square';
 export { default as ParkingSquareIcon } from './icons/parking-square';
 export { default as LucideParkingSquare } from './icons/parking-square';
+
+// SquareMenu aliases
+export { default as SquareMenuIcon } from './icons/square-menu';
+export { default as LucideSquareMenu } from './icons/square-menu';
+export { default as MenuSquare } from './icons/menu-square';
+export { default as MenuSquareIcon } from './icons/menu-square';
+export { default as LucideMenuSquare } from './icons/menu-square';
+
+// SquareMousePointer aliases
+export { default as SquareMousePointerIcon } from './icons/square-mouse-pointer';
+export { default as LucideSquareMousePointer } from './icons/square-mouse-pointer';
+export { default as Inspect } from './icons/inspect';
+export { default as InspectIcon } from './icons/inspect';
+export { default as LucideInspect } from './icons/inspect';
+
+// SquarePercent aliases
+export { default as SquarePercentIcon } from './icons/square-percent';
+export { default as LucideSquarePercent } from './icons/square-percent';
+export { default as PercentSquare } from './icons/percent-square';
+export { default as PercentSquareIcon } from './icons/percent-square';
+export { default as LucidePercentSquare } from './icons/percent-square';
+
+// SquareParkingOff aliases
+export { default as SquareParkingOffIcon } from './icons/square-parking-off';
+export { default as LucideSquareParkingOff } from './icons/square-parking-off';
+export { default as ParkingSquareOff } from './icons/parking-square-off';
+export { default as ParkingSquareOffIcon } from './icons/parking-square-off';
+export { default as LucideParkingSquareOff } from './icons/parking-square-off';
 
 // SquarePen aliases
 export { default as SquarePenIcon } from './icons/square-pen';
@@ -6111,20 +6118,6 @@ export { default as LucideEdit } from './icons/edit';
 export { default as PenSquare } from './icons/pen-square';
 export { default as PenSquareIcon } from './icons/pen-square';
 export { default as LucidePenSquare } from './icons/pen-square';
-
-// SquarePercent aliases
-export { default as SquarePercentIcon } from './icons/square-percent';
-export { default as LucideSquarePercent } from './icons/square-percent';
-export { default as PercentSquare } from './icons/percent-square';
-export { default as PercentSquareIcon } from './icons/percent-square';
-export { default as LucidePercentSquare } from './icons/percent-square';
-
-// SquarePower aliases
-export { default as SquarePowerIcon } from './icons/square-power';
-export { default as LucideSquarePower } from './icons/square-power';
-export { default as PowerSquare } from './icons/power-square';
-export { default as PowerSquareIcon } from './icons/power-square';
-export { default as LucidePowerSquare } from './icons/power-square';
 
 // SquarePi aliases
 export { default as SquarePiIcon } from './icons/square-pi';
@@ -6154,26 +6147,19 @@ export { default as ScissorsSquare } from './icons/scissors-square';
 export { default as ScissorsSquareIcon } from './icons/scissors-square';
 export { default as LucideScissorsSquare } from './icons/scissors-square';
 
+// SquarePower aliases
+export { default as SquarePowerIcon } from './icons/square-power';
+export { default as LucideSquarePower } from './icons/square-power';
+export { default as PowerSquare } from './icons/power-square';
+export { default as PowerSquareIcon } from './icons/power-square';
+export { default as LucidePowerSquare } from './icons/power-square';
+
 // SquarePlus aliases
 export { default as SquarePlusIcon } from './icons/square-plus';
 export { default as LucideSquarePlus } from './icons/square-plus';
 export { default as PlusSquare } from './icons/plus-square';
 export { default as PlusSquareIcon } from './icons/plus-square';
 export { default as LucidePlusSquare } from './icons/plus-square';
-
-// SquareSigma aliases
-export { default as SquareSigmaIcon } from './icons/square-sigma';
-export { default as LucideSquareSigma } from './icons/square-sigma';
-export { default as SigmaSquare } from './icons/sigma-square';
-export { default as SigmaSquareIcon } from './icons/sigma-square';
-export { default as LucideSigmaSquare } from './icons/sigma-square';
-
-// SquareSplitVertical aliases
-export { default as SquareSplitVerticalIcon } from './icons/square-split-vertical';
-export { default as LucideSquareSplitVertical } from './icons/square-split-vertical';
-export { default as SplitSquareVertical } from './icons/split-square-vertical';
-export { default as SplitSquareVerticalIcon } from './icons/split-square-vertical';
-export { default as LucideSplitSquareVertical } from './icons/split-square-vertical';
 
 // SquareSlash aliases
 export { default as SquareSlashIcon } from './icons/square-slash';
@@ -6182,13 +6168,6 @@ export { default as SlashSquare } from './icons/slash-square';
 export { default as SlashSquareIcon } from './icons/slash-square';
 export { default as LucideSlashSquare } from './icons/slash-square';
 
-// SquareTerminal aliases
-export { default as SquareTerminalIcon } from './icons/square-terminal';
-export { default as LucideSquareTerminal } from './icons/square-terminal';
-export { default as TerminalSquare } from './icons/terminal-square';
-export { default as TerminalSquareIcon } from './icons/terminal-square';
-export { default as LucideTerminalSquare } from './icons/terminal-square';
-
 // SquareSplitHorizontal aliases
 export { default as SquareSplitHorizontalIcon } from './icons/square-split-horizontal';
 export { default as LucideSquareSplitHorizontal } from './icons/square-split-horizontal';
@@ -6196,19 +6175,33 @@ export { default as SplitSquareHorizontal } from './icons/split-square-horizonta
 export { default as SplitSquareHorizontalIcon } from './icons/split-square-horizontal';
 export { default as LucideSplitSquareHorizontal } from './icons/split-square-horizontal';
 
+// SquareTerminal aliases
+export { default as SquareTerminalIcon } from './icons/square-terminal';
+export { default as LucideSquareTerminal } from './icons/square-terminal';
+export { default as TerminalSquare } from './icons/terminal-square';
+export { default as TerminalSquareIcon } from './icons/terminal-square';
+export { default as LucideTerminalSquare } from './icons/terminal-square';
+
+// SquareSplitVertical aliases
+export { default as SquareSplitVerticalIcon } from './icons/square-split-vertical';
+export { default as LucideSquareSplitVertical } from './icons/square-split-vertical';
+export { default as SplitSquareVertical } from './icons/split-square-vertical';
+export { default as SplitSquareVerticalIcon } from './icons/split-square-vertical';
+export { default as LucideSplitSquareVertical } from './icons/split-square-vertical';
+
+// SquareSigma aliases
+export { default as SquareSigmaIcon } from './icons/square-sigma';
+export { default as LucideSquareSigma } from './icons/square-sigma';
+export { default as SigmaSquare } from './icons/sigma-square';
+export { default as SigmaSquareIcon } from './icons/sigma-square';
+export { default as LucideSigmaSquare } from './icons/sigma-square';
+
 // SquareUser aliases
 export { default as SquareUserIcon } from './icons/square-user';
 export { default as LucideSquareUser } from './icons/square-user';
 export { default as UserSquare } from './icons/user-square';
 export { default as UserSquareIcon } from './icons/user-square';
 export { default as LucideUserSquare } from './icons/user-square';
-
-// SquareX aliases
-export { default as SquareXIcon } from './icons/square-x';
-export { default as LucideSquareX } from './icons/square-x';
-export { default as XSquare } from './icons/x-square';
-export { default as XSquareIcon } from './icons/x-square';
-export { default as LucideXSquare } from './icons/x-square';
 
 // SquareUserRound aliases
 export { default as SquareUserRoundIcon } from './icons/square-user-round';
@@ -6224,26 +6217,19 @@ export { default as TextSelection } from './icons/text-selection';
 export { default as TextSelectionIcon } from './icons/text-selection';
 export { default as LucideTextSelection } from './icons/text-selection';
 
+// SquareX aliases
+export { default as SquareXIcon } from './icons/square-x';
+export { default as LucideSquareX } from './icons/square-x';
+export { default as XSquare } from './icons/x-square';
+export { default as XSquareIcon } from './icons/x-square';
+export { default as LucideXSquare } from './icons/x-square';
+
 // TramFront aliases
 export { default as TramFrontIcon } from './icons/tram-front';
 export { default as LucideTramFront } from './icons/tram-front';
 export { default as Train } from './icons/train';
 export { default as TrainIcon } from './icons/train';
 export { default as LucideTrain } from './icons/train';
-
-// TriangleAlert aliases
-export { default as TriangleAlertIcon } from './icons/triangle-alert';
-export { default as LucideTriangleAlert } from './icons/triangle-alert';
-export { default as AlertTriangle } from './icons/alert-triangle';
-export { default as AlertTriangleIcon } from './icons/alert-triangle';
-export { default as LucideAlertTriangle } from './icons/alert-triangle';
-
-// TestTubeDiagonal aliases
-export { default as TestTubeDiagonalIcon } from './icons/test-tube-diagonal';
-export { default as LucideTestTubeDiagonal } from './icons/test-tube-diagonal';
-export { default as TestTube2 } from './icons/test-tube-2';
-export { default as TestTube2Icon } from './icons/test-tube-2';
-export { default as LucideTestTube2 } from './icons/test-tube-2';
 
 // TreePalm aliases
 export { default as TreePalmIcon } from './icons/tree-palm';
@@ -6252,12 +6238,19 @@ export { default as Palmtree } from './icons/palmtree';
 export { default as PalmtreeIcon } from './icons/palmtree';
 export { default as LucidePalmtree } from './icons/palmtree';
 
-// University aliases
-export { default as UniversityIcon } from './icons/university';
-export { default as LucideUniversity } from './icons/university';
-export { default as School2 } from './icons/school-2';
-export { default as School2Icon } from './icons/school-2';
-export { default as LucideSchool2 } from './icons/school-2';
+// TestTubeDiagonal aliases
+export { default as TestTubeDiagonalIcon } from './icons/test-tube-diagonal';
+export { default as LucideTestTubeDiagonal } from './icons/test-tube-diagonal';
+export { default as TestTube2 } from './icons/test-tube-2';
+export { default as TestTube2Icon } from './icons/test-tube-2';
+export { default as LucideTestTube2 } from './icons/test-tube-2';
+
+// TriangleAlert aliases
+export { default as TriangleAlertIcon } from './icons/triangle-alert';
+export { default as LucideTriangleAlert } from './icons/triangle-alert';
+export { default as AlertTriangle } from './icons/alert-triangle';
+export { default as AlertTriangleIcon } from './icons/alert-triangle';
+export { default as LucideAlertTriangle } from './icons/alert-triangle';
 
 // UserRoundCheck aliases
 export { default as UserRoundCheckIcon } from './icons/user-round-check';
@@ -6266,19 +6259,19 @@ export { default as UserCheck2 } from './icons/user-check-2';
 export { default as UserCheck2Icon } from './icons/user-check-2';
 export { default as LucideUserCheck2 } from './icons/user-check-2';
 
+// University aliases
+export { default as UniversityIcon } from './icons/university';
+export { default as LucideUniversity } from './icons/university';
+export { default as School2 } from './icons/school-2';
+export { default as School2Icon } from './icons/school-2';
+export { default as LucideSchool2 } from './icons/school-2';
+
 // UserRoundCog aliases
 export { default as UserRoundCogIcon } from './icons/user-round-cog';
 export { default as LucideUserRoundCog } from './icons/user-round-cog';
 export { default as UserCog2 } from './icons/user-cog-2';
 export { default as UserCog2Icon } from './icons/user-cog-2';
 export { default as LucideUserCog2 } from './icons/user-cog-2';
-
-// UserRoundPlus aliases
-export { default as UserRoundPlusIcon } from './icons/user-round-plus';
-export { default as LucideUserRoundPlus } from './icons/user-round-plus';
-export { default as UserPlus2 } from './icons/user-plus-2';
-export { default as UserPlus2Icon } from './icons/user-plus-2';
-export { default as LucideUserPlus2 } from './icons/user-plus-2';
 
 // UserRound aliases
 export { default as UserRoundIcon } from './icons/user-round';
@@ -6294,19 +6287,26 @@ export { default as UserMinus2 } from './icons/user-minus-2';
 export { default as UserMinus2Icon } from './icons/user-minus-2';
 export { default as LucideUserMinus2 } from './icons/user-minus-2';
 
-// UsersRound aliases
-export { default as UsersRoundIcon } from './icons/users-round';
-export { default as LucideUsersRound } from './icons/users-round';
-export { default as Users2 } from './icons/users-2';
-export { default as Users2Icon } from './icons/users-2';
-export { default as LucideUsers2 } from './icons/users-2';
-
 // UserRoundX aliases
 export { default as UserRoundXIcon } from './icons/user-round-x';
 export { default as LucideUserRoundX } from './icons/user-round-x';
 export { default as UserX2 } from './icons/user-x-2';
 export { default as UserX2Icon } from './icons/user-x-2';
 export { default as LucideUserX2 } from './icons/user-x-2';
+
+// UserRoundPlus aliases
+export { default as UserRoundPlusIcon } from './icons/user-round-plus';
+export { default as LucideUserRoundPlus } from './icons/user-round-plus';
+export { default as UserPlus2 } from './icons/user-plus-2';
+export { default as UserPlus2Icon } from './icons/user-plus-2';
+export { default as LucideUserPlus2 } from './icons/user-plus-2';
+
+// UsersRound aliases
+export { default as UsersRoundIcon } from './icons/users-round';
+export { default as LucideUsersRound } from './icons/users-round';
+export { default as Users2 } from './icons/users-2';
+export { default as Users2Icon } from './icons/users-2';
+export { default as LucideUsers2 } from './icons/users-2';
 
 // WalletMinimal aliases
 export { default as WalletMinimalIcon } from './icons/wallet-minimal';
