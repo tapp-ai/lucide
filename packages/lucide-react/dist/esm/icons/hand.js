@@ -8,9 +8,9 @@
 import createLucideIcon from '../createLucideIcon.js';
 
 const Hand = createLucideIcon("Hand", [
-  ["path", { d: "M18 11V6a2 2 0 0 0-2-2a2 2 0 0 0-2 2", key: "1fvzgz" }],
-  ["path", { d: "M14 10V4a2 2 0 0 0-2-2a2 2 0 0 0-2 2v2", key: "1kc0my" }],
-  ["path", { d: "M10 10.5V6a2 2 0 0 0-2-2a2 2 0 0 0-2 2v8", key: "10h0bg" }],
+  ["path", { d: "M18 11V6a2 2 0 0 0-2-2 2 2 0 0 0-2 2", key: "9oxfbm" }],
+  ["path", { d: "M14 10V4a2 2 0 0 0-2-2 2 2 0 0 0-2 2v2", key: "xd57qx" }],
+  ["path", { d: "M10 10.5V6a2 2 0 0 0-2-2 2 2 0 0 0-2 2v8", key: "1ej2ej" }],
   [
     "path",
     {

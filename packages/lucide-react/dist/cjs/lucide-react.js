@@ -29,7 +29,7 @@ var defaultAttributes = {
 const Icon = react.forwardRef(
   ({
     color = "currentColor",
-    size = 24,
+    size = 16,
     strokeWidth = 2,
     absoluteStrokeWidth,
     className = "",
@@ -62,8 +62,6 @@ const createLucideIcon = (iconName, iconNode) => {
     ({ className, ...props }, ref) => react.createElement(Icon, {
       ref,
       iconNode,
-      size: 16,
-      strokeWidth: 2,
       className: mergeClasses(`lucide-${toKebabCase(iconName)}`, className),
       ...props
     })
@@ -1641,8 +1639,8 @@ const BookHeart = createLucideIcon("BookHeart", [
   [
     "path",
     {
-      d: "M16 8.2C16 7 15 6 13.8 6c-.8 0-1.4.3-1.8.9-.4-.6-1-.9-1.8-.9C9 6 8 7 8 8.2c0 .6.3 1.2.7 1.6C10 11.1 12 13 12 13s2-1.9 3.3-3.1c.4-.4.7-1 .7-1.7z",
-      key: "109ejj"
+      d: "M16 8.2C16 7 15 6 13.8 6q-1.2 0-1.8.9-.6-.9-1.8-.9C9 6 8 7 8 8.2c0 .6.3 1.2.7 1.6C10 11.1 12 13 12 13s2-1.9 3.3-3.1c.4-.4.7-1 .7-1.7",
+      key: "11oifz"
     }
   ]
 ]);
@@ -2539,9 +2537,9 @@ const Cast = createLucideIcon("Cast", [
 ]);
 
 const Castle = createLucideIcon("Castle", [
-  ["path", { d: "M22 20v-9H2v9a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2Z", key: "109fe4" }],
+  ["path", { d: "M22 20v-9H2v9a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2", key: "opuev4" }],
   ["path", { d: "M18 11V4H6v7", key: "mon5oj" }],
-  ["path", { d: "M15 22v-4a3 3 0 0 0-3-3a3 3 0 0 0-3 3v4", key: "1k4jtn" }],
+  ["path", { d: "M15 22v-4a3 3 0 0 0-3-3 3 3 0 0 0-3 3v4", key: "9kl8vm" }],
   ["path", { d: "M22 11V9", key: "3zbp94" }],
   ["path", { d: "M2 11V9", key: "1x5rnq" }],
   ["path", { d: "M6 4V2", key: "1rsq15" }],
@@ -2682,7 +2680,7 @@ const Chrome = createLucideIcon("Chrome", [
 
 const Church = createLucideIcon("Church", [
   ["path", { d: "m18 7 4 2v11a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V9l4-2", key: "gy5gyo" }],
-  ["path", { d: "M14 22v-4a2 2 0 0 0-2-2a2 2 0 0 0-2 2v4", key: "tdb53m" }],
+  ["path", { d: "M14 22v-4a2 2 0 0 0-2-2 2 2 0 0 0-2 2v4", key: "1kfjgc" }],
   ["path", { d: "M18 22V5l-6-3-6 3v17", key: "1hsnhq" }],
   ["path", { d: "M12 7v5", key: "ma6bk" }],
   ["path", { d: "M10 9h4", key: "u4k05v" }]
@@ -4219,11 +4217,11 @@ const Earth = createLucideIcon("Earth", [
   [
     "path",
     {
-      d: "M7 3.34V5a3 3 0 0 0 3 3a2 2 0 0 1 2 2c0 1.1.9 2 2 2a2 2 0 0 0 2-2c0-1.1.9-2 2-2h3.17",
-      key: "1tzkfa"
+      d: "M7 3.34V5a3 3 0 0 0 3 3 2 2 0 0 1 2 2c0 1.1.9 2 2 2a2 2 0 0 0 2-2c0-1.1.9-2 2-2h3.17",
+      key: "15o9aq"
     }
   ],
-  ["path", { d: "M11 21.95V18a2 2 0 0 0-2-2a2 2 0 0 1-2-2v-1a2 2 0 0 0-2-2H2.05", key: "14pb5j" }],
+  ["path", { d: "M11 21.95V18a2 2 0 0 0-2-2 2 2 0 0 1-2-2v-1a2 2 0 0 0-2-2H2.05", key: "f02343" }],
   ["circle", { cx: "12", cy: "12", r: "10", key: "1mglay" }]
 ]);
 
@@ -5655,8 +5653,8 @@ const Fuel = createLucideIcon("Fuel", [
   [
     "path",
     {
-      d: "M14 13h2a2 2 0 0 1 2 2v2a2 2 0 0 0 2 2a2 2 0 0 0 2-2V9.83a2 2 0 0 0-.59-1.42L18 5",
-      key: "7cu91f"
+      d: "M14 13h2a2 2 0 0 1 2 2v2a2 2 0 0 0 2 2 2 2 0 0 0 2-2V9.83a2 2 0 0 0-.59-1.42L18 5",
+      key: "ydhtvm"
     }
   ]
 ]);
@@ -5952,10 +5950,10 @@ const Goal = createLucideIcon("Goal", [
 ]);
 
 const Grab = createLucideIcon("Grab", [
-  ["path", { d: "M18 11.5V9a2 2 0 0 0-2-2a2 2 0 0 0-2 2v1.4", key: "edstyy" }],
-  ["path", { d: "M14 10V8a2 2 0 0 0-2-2a2 2 0 0 0-2 2v2", key: "19wdwo" }],
-  ["path", { d: "M10 9.9V9a2 2 0 0 0-2-2a2 2 0 0 0-2 2v5", key: "1lugqo" }],
-  ["path", { d: "M6 14a2 2 0 0 0-2-2a2 2 0 0 0-2 2", key: "1hbeus" }],
+  ["path", { d: "M18 11.5V9a2 2 0 0 0-2-2 2 2 0 0 0-2 2v1.4", key: "ldqwxn" }],
+  ["path", { d: "M14 10V8a2 2 0 0 0-2-2 2 2 0 0 0-2 2v2", key: "mxihh1" }],
+  ["path", { d: "M10 9.9V9a2 2 0 0 0-2-2 2 2 0 0 0-2 2v5", key: "1eivvc" }],
+  ["path", { d: "M6 14a2 2 0 0 0-2-2 2 2 0 0 0-2 2", key: "p08t8o" }],
   [
     "path",
     { d: "M18 11a2 2 0 1 1 4 0v3a8 8 0 0 1-8 8h-4a8 8 0 0 1-8-8 2 2 0 1 1 4 0", key: "1etffm" }
@@ -6079,7 +6077,7 @@ const Guitar = createLucideIcon("Guitar", [
       key: "1u8q3z"
     }
   ],
-  ["circle", { cx: "11.5", cy: "12.5", r: ".5", fill: "currentColor", key: "16onso" }]
+  ["circle", { cx: "11.5", cy: "12.5", r: ".5", key: "1evg0a" }]
 ]);
 
 const Ham = createLucideIcon("Ham", [
@@ -6159,7 +6157,7 @@ const HandHelping = createLucideIcon("HandHelping", [
 ]);
 
 const HandMetal = createLucideIcon("HandMetal", [
-  ["path", { d: "M18 12.5V10a2 2 0 0 0-2-2a2 2 0 0 0-2 2v1.4", key: "wc6myp" }],
+  ["path", { d: "M18 12.5V10a2 2 0 0 0-2-2 2 2 0 0 0-2 2v1.4", key: "16zw0k" }],
   ["path", { d: "M14 11V9a2 2 0 1 0-4 0v2", key: "94qvcw" }],
   ["path", { d: "M10 10.5V5a2 2 0 1 0-4 0v9", key: "m1ah89" }],
   [
@@ -6187,9 +6185,9 @@ const HandPlatter = createLucideIcon("HandPlatter", [
 ]);
 
 const Hand = createLucideIcon("Hand", [
-  ["path", { d: "M18 11V6a2 2 0 0 0-2-2a2 2 0 0 0-2 2", key: "1fvzgz" }],
-  ["path", { d: "M14 10V4a2 2 0 0 0-2-2a2 2 0 0 0-2 2v2", key: "1kc0my" }],
-  ["path", { d: "M10 10.5V6a2 2 0 0 0-2-2a2 2 0 0 0-2 2v8", key: "10h0bg" }],
+  ["path", { d: "M18 11V6a2 2 0 0 0-2-2 2 2 0 0 0-2 2", key: "9oxfbm" }],
+  ["path", { d: "M14 10V4a2 2 0 0 0-2-2 2 2 0 0 0-2 2v2", key: "xd57qx" }],
+  ["path", { d: "M10 10.5V6a2 2 0 0 0-2-2 2 2 0 0 0-2 2v8", key: "1ej2ej" }],
   [
     "path",
     {
@@ -6245,10 +6243,7 @@ const HardDrive = createLucideIcon("HardDrive", [
 const HardHat = createLucideIcon("HardHat", [
   [
     "path",
-    {
-      d: "M2 18a1 1 0 0 0 1 1h18a1 1 0 0 0 1-1v-2a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1v2z",
-      key: "1dej2m"
-    }
+    { d: "M2 18a1 1 0 0 0 1 1h18a1 1 0 0 0 1-1v-2a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1z", key: "1bmzer" }
   ],
   ["path", { d: "M10 10V5a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v5", key: "1p9q5i" }],
   ["path", { d: "M4 15v-3a6 6 0 0 1 6-6", key: "9ciidu" }],
@@ -7007,16 +7002,16 @@ const LassoSelect = createLucideIcon("LassoSelect", [
   [
     "path",
     {
-      d: "M3.34 14A6.8 6.8 0 0 1 2 10c0-4.42 4.48-8 10-8s10 3.58 10 8a7.19 7.19 0 0 1-.33 2",
-      key: "gt5e1w"
+      d: "M3.34 14A6.8 6.8 0 0 1 2 10c0-4.42 4.48-8 10-8s10 3.58 10 8a7.2 7.2 0 0 1-.33 2",
+      key: "m27q2s"
     }
   ],
-  ["path", { d: "M5 18a2 2 0 1 0 0-4 2 2 0 0 0 0 4z", key: "bq3ynw" }],
+  ["path", { d: "M5 18a2 2 0 1 0 0-4 2 2 0 0 0 0 4", key: "tnhm5i" }],
   [
     "path",
     {
-      d: "M14.33 22h-.09a.35.35 0 0 1-.24-.32v-10a.34.34 0 0 1 .33-.34c.08 0 .15.03.21.08l7.34 6a.33.33 0 0 1-.21.59h-4.49l-2.57 3.85a.35.35 0 0 1-.28.14z",
-      key: "72q637"
+      d: "M14.33 22h-.09a.35.35 0 0 1-.24-.32v-10a.34.34 0 0 1 .33-.34c.08 0 .15.03.21.08l7.34 6a.33.33 0 0 1-.21.59h-4.49l-2.57 3.85a.35.35 0 0 1-.28.14",
+      key: "m3u7ex"
     }
   ]
 ]);
@@ -7553,7 +7548,7 @@ const MailQuestion = createLucideIcon("MailQuestion", [
 const MailSearch = createLucideIcon("MailSearch", [
   ["path", { d: "M22 12.5V6a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v12c0 1.1.9 2 2 2h7.5", key: "w80f2v" }],
   ["path", { d: "m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7", key: "1ocrg3" }],
-  ["path", { d: "M18 21a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z", key: "8lzu5m" }],
+  ["path", { d: "M18 21a3 3 0 1 0 0-6 3 3 0 0 0 0 6", key: "118tu1" }],
   ["circle", { cx: "18", cy: "18", r: "3", key: "1xkwt0" }],
   ["path", { d: "m22 22-1.5-1.5", key: "1x83k4" }]
 ]);
@@ -7581,8 +7576,8 @@ const Mailbox = createLucideIcon("Mailbox", [
   [
     "path",
     {
-      d: "M22 17a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V9.5C2 7 4 5 6.5 5H18c2.2 0 4 1.8 4 4v8Z",
-      key: "1lbycx"
+      d: "M22 17a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V9.5C2 7 4 5 6.5 5H18c2.2 0 4 1.8 4 4z",
+      key: "15eup0"
     }
   ],
   ["polyline", { points: "15,9 18,9 18,11", key: "1pm9c0" }],
@@ -7928,8 +7923,8 @@ const MicVocal = createLucideIcon("MicVocal", [
   [
     "path",
     {
-      d: "M16.5 21.174C15.5 20.5 14.372 20 13 20c-2.058 0-3.928 2.356-6 2-2.072-.356-2.775-3.369-1.5-4.5",
-      key: "j0ngtp"
+      d: "M16.5 21.174C15.5 20.5 14.372 20 13 20c-2.058 0-3.928 2.356-6 2s-2.775-3.369-1.5-4.5",
+      key: "1oao5f"
     }
   ],
   ["circle", { cx: "16", cy: "7", r: "5", key: "d08jfb" }]
@@ -8053,7 +8048,7 @@ const MonitorPlay = createLucideIcon("MonitorPlay", [
   ],
   ["path", { d: "M12 17v4", key: "1riwvh" }],
   ["path", { d: "M8 21h8", key: "1ev6f3" }],
-  ["rect", { x: "2", y: "3", width: "20", height: "14", rx: "2", key: "x3v2xh" }]
+  ["rect", { width: "20", height: "14", x: "2", y: "3", rx: "2", key: "48i651" }]
 ]);
 
 const MonitorSmartphone = createLucideIcon("MonitorSmartphone", [
@@ -8829,15 +8824,12 @@ const PartyPopper = createLucideIcon("PartyPopper", [
   ],
   [
     "path",
-    { d: "m22 13-.82-.33c-.86-.34-1.82.2-1.98 1.11c-.11.7-.72 1.22-1.43 1.22H17", key: "1i94pl" }
+    { d: "m22 13-.82-.33c-.86-.34-1.82.2-1.98 1.11-.11.7-.72 1.22-1.43 1.22H17", key: "r6337e" }
   ],
-  ["path", { d: "m11 2 .33.82c.34.86-.2 1.82-1.11 1.98C9.52 4.9 9 5.52 9 6.23V7", key: "1cofks" }],
+  ["path", { d: "m11 2 .33.82c.34.86-.2 1.82-1.11 1.98-.7.1-1.22.72-1.22 1.43V7", key: "ykb4t0" }],
   [
     "path",
-    {
-      d: "M11 13c1.93 1.93 2.83 4.17 2 5-.83.83-3.07-.07-5-2-1.93-1.93-2.83-4.17-2-5 .83-.83 3.07.07 5 2Z",
-      key: "4kbmks"
-    }
+    { d: "M11 13c1.93 1.93 2.83 4.17 2 5s-3.07-.07-5-2-2.83-4.17-2-5 3.07.07 5 2", key: "10j518" }
   ]
 ]);
 
@@ -9153,8 +9145,8 @@ const PiggyBank = createLucideIcon("PiggyBank", [
   [
     "path",
     {
-      d: "M19 5c-1.5 0-2.8 1.4-3 2-3.5-1.5-11-.3-11 5 0 1.8 0 3 2 4.5V20h4v-2h3v2h4v-4c1-.5 1.7-1 2-2h2v-4h-2c0-1-.5-1.5-1-2V5z",
-      key: "1ivx2i"
+      d: "M19 5c-1.5 0-2.8 1.4-3 2-3.5-1.5-11-.3-11 5 0 1.8 0 3 2 4.5V20h4v-2h3v2h4v-4c1-.5 1.7-1 2-2h2v-4h-2c0-1-.5-1.5-1-2z",
+      key: "1am5vw"
     }
   ],
   ["path", { d: "M2 9v1c0 1.1.9 2 2 2h1", key: "nm575m" }],
@@ -9282,7 +9274,7 @@ const Plug2 = createLucideIcon("Plug2", [
   ["path", { d: "M15 2v6", key: "s7yy2p" }],
   ["path", { d: "M12 17v5", key: "bb1du9" }],
   ["path", { d: "M5 8h14", key: "pcz4l3" }],
-  ["path", { d: "M6 11V8h12v3a6 6 0 1 1-12 0Z", key: "wtfw2c" }]
+  ["path", { d: "M6 11V8h12v3a6 6 0 1 1-12 0", key: "1noqqw" }]
 ]);
 
 const PlugZap2 = createLucideIcon("PlugZap2", [
@@ -9362,9 +9354,9 @@ const PointerOff = createLucideIcon("PointerOff", [
 
 const Pointer = createLucideIcon("Pointer", [
   ["path", { d: "M22 14a8 8 0 0 1-8 8", key: "56vcr3" }],
-  ["path", { d: "M18 11v-1a2 2 0 0 0-2-2a2 2 0 0 0-2 2", key: "1agjmk" }],
-  ["path", { d: "M14 10V9a2 2 0 0 0-2-2a2 2 0 0 0-2 2v1", key: "wdbh2u" }],
-  ["path", { d: "M10 9.5V4a2 2 0 0 0-2-2a2 2 0 0 0-2 2v10", key: "1ibuk9" }],
+  ["path", { d: "M18 11v-1a2 2 0 0 0-2-2 2 2 0 0 0-2 2", key: "15y3ke" }],
+  ["path", { d: "M14 10V9a2 2 0 0 0-2-2 2 2 0 0 0-2 2v1", key: "a9sjhz" }],
+  ["path", { d: "M10 9.5V4a2 2 0 0 0-2-2 2 2 0 0 0-2 2v10", key: "1a2yhn" }],
   [
     "path",
     {
@@ -9438,7 +9430,7 @@ const Printer = createLucideIcon("Printer", [
     }
   ],
   ["path", { d: "M6 9V3a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v6", key: "1itne7" }],
-  ["rect", { x: "6", y: "14", width: "12", height: "8", rx: "1", key: "1ue0tg" }]
+  ["rect", { width: "12", height: "8", x: "6", y: "14", rx: "1", key: "l779so" }]
 ]);
 
 const Projector = createLucideIcon("Projector", [
@@ -9545,22 +9537,22 @@ const Radiation = createLucideIcon("Radiation", [
   [
     "path",
     {
-      d: "M7.5 4.2c-.3-.5-.9-.7-1.3-.4C3.9 5.5 2.3 8.1 2 11c-.1.5.4 1 1 1h5c0-1.5.8-2.8 2-3.4-1.1-1.9-2-3.5-2.5-4.4z",
-      key: "wy49g3"
+      d: "M7.5 4.2c-.3-.5-.9-.7-1.3-.4C3.9 5.5 2.3 8.1 2 11c-.1.5.4 1 1 1h5c0-1.5.8-2.8 2-3.4-1.1-1.9-2-3.5-2.5-4.4",
+      key: "el2sy1"
     }
   ],
   [
     "path",
     {
-      d: "M21 12c.6 0 1-.4 1-1-.3-2.9-1.8-5.5-4.1-7.1-.4-.3-1.1-.2-1.3.3-.6.9-1.5 2.5-2.6 4.3 1.2.7 2 2 2 3.5h5z",
-      key: "vklnvr"
+      d: "M21 12c.6 0 1-.4 1-1-.3-2.9-1.8-5.5-4.1-7.1-.4-.3-1.1-.2-1.3.3-.6.9-1.5 2.5-2.6 4.3 1.2.7 2 2 2 3.5z",
+      key: "1pkflb"
     }
   ],
   [
     "path",
     {
-      d: "M7.5 19.8c-.3.5-.1 1.1.4 1.3 2.6 1.2 5.6 1.2 8.2 0 .5-.2.7-.8.4-1.3-.5-.9-1.4-2.5-2.5-4.3-1.2.7-2.8.7-4 0-1.1 1.8-2 3.4-2.5 4.3z",
-      key: "wkdf1o"
+      d: "M7.5 19.8c-.3.5-.1 1.1.4 1.3 2.6 1.2 5.6 1.2 8.2 0 .5-.2.7-.8.4-1.3-.5-.9-1.4-2.5-2.5-4.3-1.2.7-2.8.7-4 0-1.1 1.8-2 3.4-2.5 4.3",
+      key: "enued2"
     }
   ]
 ]);
@@ -9623,15 +9615,15 @@ const Rat = createLucideIcon("Rat", [
   [
     "path",
     {
-      d: "M17 5c0-1.7-1.3-3-3-3s-3 1.3-3 3c0 .8.3 1.5.8 2H11c-3.9 0-7 3.1-7 7c0 2.2 1.8 4 4 4",
-      key: "1wq71c"
+      d: "M17 5c0-1.7-1.3-3-3-3s-3 1.3-3 3c0 .8.3 1.5.8 2H11c-3.9 0-7 3.1-7 7 0 2.2 1.8 4 4 4",
+      key: "dgtm43"
     }
   ],
   [
     "path",
     {
-      d: "M16.8 3.9c.3-.3.6-.5 1-.7 1.5-.6 3.3.1 3.9 1.6.6 1.5-.1 3.3-1.6 3.9l1.6 2.8c.2.3.2.7.2 1-.2.8-.9 1.2-1.7 1.1 0 0-1.6-.3-2.7-.6H17c-1.7 0-3 1.3-3 3",
-      key: "1crdmb"
+      d: "M16.8 3.9c.3-.3.6-.5 1-.7 1.5-.6 3.3.1 3.9 1.6s-.1 3.3-1.6 3.9l1.6 2.8c.2.3.2.7.2 1-.2.8-.9 1.2-1.7 1.1 0 0-1.6-.3-2.7-.6H17c-1.7 0-3 1.3-3 3",
+      key: "1u1bmi"
     }
   ],
   ["path", { d: "M13.2 18a3 3 0 0 0-2.2-5", key: "1ol3lk" }],
@@ -9775,7 +9767,7 @@ const Recycle = createLucideIcon("Recycle", [
 
 const Redo2 = createLucideIcon("Redo2", [
   ["path", { d: "m15 14 5-5-5-5", key: "12vg1m" }],
-  ["path", { d: "M20 9H9.5A5.5 5.5 0 0 0 4 14.5A5.5 5.5 0 0 0 9.5 20H13", key: "6uklza" }]
+  ["path", { d: "M20 9H9.5A5.5 5.5 0 0 0 4 14.5 5.5 5.5 0 0 0 9.5 20H13", key: "130331" }]
 ]);
 
 const RedoDot = createLucideIcon("RedoDot", [
@@ -10729,7 +10721,7 @@ const Shrink = createLucideIcon("Shrink", [
 
 const Shrub = createLucideIcon("Shrub", [
   ["path", { d: "M12 22v-7l-2-2", key: "eqv9mc" }],
-  ["path", { d: "M17 8v.8A6 6 0 0 1 13.8 20H10A6.5 6.5 0 0 1 7 8a5 5 0 0 1 10 0Z", key: "ubcgy" }],
+  ["path", { d: "M17 8v.8A6 6 0 0 1 13.8 20H10A6.5 6.5 0 0 1 7 8a5 5 0 0 1 10 0", key: "lwhdso" }],
   ["path", { d: "m14 14-2 2", key: "847xa2" }]
 ]);
 
@@ -11542,19 +11534,16 @@ const Stethoscope = createLucideIcon("Stethoscope", [
   [
     "path",
     {
-      d: "M4.8 2.3A.3.3 0 1 0 5 2H4a2 2 0 0 0-2 2v5a6 6 0 0 0 6 6a6 6 0 0 0 6-6V4a2 2 0 0 0-2-2h-1a.2.2 0 1 0 .3.3",
-      key: "10lez9"
+      d: "M4.8 2.3A.3.3 0 1 0 5 2H4a2 2 0 0 0-2 2v5a6 6 0 0 0 6 6 6 6 0 0 0 6-6V4a2 2 0 0 0-2-2h-1a.2.2 0 1 0 .3.3",
+      key: "5576ph"
     }
   ],
-  ["path", { d: "M8 15v1a6 6 0 0 0 6 6a6 6 0 0 0 6-6v-4", key: "ce9bce" }],
+  ["path", { d: "M8 15v1a6 6 0 0 0 6 6 6 6 0 0 0 6-6v-4", key: "hga5fz" }],
   ["circle", { cx: "20", cy: "10", r: "2", key: "ts1r5v" }]
 ]);
 
 const Sticker = createLucideIcon("Sticker", [
-  [
-    "path",
-    { d: "M15.5 3H5a2 2 0 0 0-2 2v14c0 1.1.9 2 2 2h14a2 2 0 0 0 2-2V8.5L15.5 3Z", key: "1wis1t" }
-  ],
+  ["path", { d: "M15.5 3H5a2 2 0 0 0-2 2v14c0 1.1.9 2 2 2h14a2 2 0 0 0 2-2V8.5z", key: "71av4f" }],
   ["path", { d: "M14 3v4a2 2 0 0 0 2 2h4", key: "36rjfy" }],
   ["path", { d: "M8 13h.01", key: "1sbv64" }],
   ["path", { d: "M16 13h.01", key: "wip0gl" }],
@@ -11574,8 +11563,8 @@ const Store = createLucideIcon("Store", [
   [
     "path",
     {
-      d: "M22 7v3a2 2 0 0 1-2 2a2.7 2.7 0 0 1-1.59-.63.7.7 0 0 0-.82 0A2.7 2.7 0 0 1 16 12a2.7 2.7 0 0 1-1.59-.63.7.7 0 0 0-.82 0A2.7 2.7 0 0 1 12 12a2.7 2.7 0 0 1-1.59-.63.7.7 0 0 0-.82 0A2.7 2.7 0 0 1 8 12a2.7 2.7 0 0 1-1.59-.63.7.7 0 0 0-.82 0A2.7 2.7 0 0 1 4 12a2 2 0 0 1-2-2V7",
-      key: "6c3vgh"
+      d: "M22 7v3a2 2 0 0 1-2 2 2.7 2.7 0 0 1-1.59-.63.7.7 0 0 0-.82 0A2.7 2.7 0 0 1 16 12a2.7 2.7 0 0 1-1.59-.63.7.7 0 0 0-.82 0A2.7 2.7 0 0 1 12 12a2.7 2.7 0 0 1-1.59-.63.7.7 0 0 0-.82 0A2.7 2.7 0 0 1 8 12a2.7 2.7 0 0 1-1.59-.63.7.7 0 0 0-.82 0A2.7 2.7 0 0 1 4 12a2 2 0 0 1-2-2V7",
+      key: "r01t9c"
     }
   ]
 ]);
@@ -11707,7 +11696,7 @@ const Superscript = createLucideIcon("Superscript", [
 const SwatchBook = createLucideIcon("SwatchBook", [
   ["path", { d: "M11 17a4 4 0 0 1-8 0V5a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2Z", key: "1ldrpk" }],
   ["path", { d: "M16.7 13H19a2 2 0 0 1 2 2v4a2 2 0 0 1-2 2H7", key: "11i5po" }],
-  ["path", { d: "M 7 17h.01", key: "1euzgo" }],
+  ["path", { d: "M7 17h.01", key: "19xn7k" }],
   [
     "path",
     {
@@ -11954,21 +11943,21 @@ const Terminal = createLucideIcon("Terminal", [
 const TestTubeDiagonal = createLucideIcon("TestTubeDiagonal", [
   [
     "path",
-    { d: "M21 7 6.82 21.18a2.83 2.83 0 0 1-3.99-.01a2.83 2.83 0 0 1 0-4L17 3", key: "1ub6xw" }
+    { d: "M21 7 6.82 21.18a2.83 2.83 0 0 1-3.99-.01 2.83 2.83 0 0 1 0-4L17 3", key: "13i5y4" }
   ],
   ["path", { d: "m16 2 6 6", key: "1gw87d" }],
   ["path", { d: "M12 16H4", key: "1cjfip" }]
 ]);
 
 const TestTube = createLucideIcon("TestTube", [
-  ["path", { d: "M14.5 2v17.5c0 1.4-1.1 2.5-2.5 2.5c-1.4 0-2.5-1.1-2.5-2.5V2", key: "125lnx" }],
+  ["path", { d: "M14.5 2v17.5c0 1.4-1.1 2.5-2.5 2.5s-2.5-1.1-2.5-2.5V2", key: "1aupc3" }],
   ["path", { d: "M8.5 2h7", key: "csnxdl" }],
   ["path", { d: "M14.5 16h-5", key: "1ox875" }]
 ]);
 
 const TestTubes = createLucideIcon("TestTubes", [
-  ["path", { d: "M9 2v17.5A2.5 2.5 0 0 1 6.5 22A2.5 2.5 0 0 1 4 19.5V2", key: "1hjrqt" }],
-  ["path", { d: "M20 2v17.5a2.5 2.5 0 0 1-2.5 2.5a2.5 2.5 0 0 1-2.5-2.5V2", key: "16lc8n" }],
+  ["path", { d: "M9 2v17.5A2.5 2.5 0 0 1 6.5 22 2.5 2.5 0 0 1 4 19.5V2", key: "1utee3" }],
+  ["path", { d: "M20 2v17.5a2.5 2.5 0 0 1-2.5 2.5 2.5 2.5 0 0 1-2.5-2.5V2", key: "4u9apw" }],
   ["path", { d: "M3 2h7", key: "7s29d5" }],
   ["path", { d: "M14 2h7", key: "7sicin" }],
   ["path", { d: "M9 16H4", key: "1bfye3" }],
@@ -12067,8 +12056,8 @@ const ThumbsDown = createLucideIcon("ThumbsDown", [
   [
     "path",
     {
-      d: "M9 18.12 10 14H4.17a2 2 0 0 1-1.92-2.56l2.33-8A2 2 0 0 1 6.5 2H20a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2h-2.76a2 2 0 0 0-1.79 1.11L12 22a3.13 3.13 0 0 1-3-3.88Z",
-      key: "m61m77"
+      d: "M9 18.12 10 14H4.17a2 2 0 0 1-1.92-2.56l2.33-8A2 2 0 0 1 6.5 2H20a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2h-2.76a2 2 0 0 0-1.79 1.11L12 22a3.13 3.13 0 0 1-3-3.88",
+      key: "nqahsp"
     }
   ]
 ]);
@@ -12078,8 +12067,8 @@ const ThumbsUp = createLucideIcon("ThumbsUp", [
   [
     "path",
     {
-      d: "M15 5.88 14 10h5.83a2 2 0 0 1 1.92 2.56l-2.33 8A2 2 0 0 1 17.5 22H4a2 2 0 0 1-2-2v-8a2 2 0 0 1 2-2h2.76a2 2 0 0 0 1.79-1.11L12 2a3.13 3.13 0 0 1 3 3.88Z",
-      key: "emmmcr"
+      d: "M15 5.88 14 10h5.83a2 2 0 0 1 1.92 2.56l-2.33 8A2 2 0 0 1 17.5 22H4a2 2 0 0 1-2-2v-8a2 2 0 0 1 2-2h2.76a2 2 0 0 0 1.79-1.11L12 2a3.13 3.13 0 0 1 3 3.88",
+      key: "txridt"
     }
   ]
 ]);
@@ -12368,7 +12357,7 @@ const TreePine = createLucideIcon("TreePine", [
 ]);
 
 const Trees = createLucideIcon("Trees", [
-  ["path", { d: "M10 10v.2A3 3 0 0 1 8.9 16H5a3 3 0 0 1-1-5.8V10a3 3 0 0 1 6 0Z", key: "1l6gj6" }],
+  ["path", { d: "M10 10v.2A3 3 0 0 1 8.9 16H5a3 3 0 0 1-1-5.8V10a3 3 0 0 1 6 0", key: "wtc0yj" }],
   ["path", { d: "M7 16v6", key: "1a82de" }],
   ["path", { d: "M13 19v3", key: "13sx9i" }],
   [
@@ -12523,7 +12512,7 @@ const Underline = createLucideIcon("Underline", [
 
 const Undo2 = createLucideIcon("Undo2", [
   ["path", { d: "M9 14 4 9l5-5", key: "102s5s" }],
-  ["path", { d: "M4 9h10.5a5.5 5.5 0 0 1 5.5 5.5a5.5 5.5 0 0 1-5.5 5.5H11", key: "f3b9sd" }]
+  ["path", { d: "M4 9h10.5a5.5 5.5 0 0 1 5.5 5.5 5.5 5.5 0 0 1-5.5 5.5H11", key: "1hiwst" }]
 ]);
 
 const UndoDot = createLucideIcon("UndoDot", [
@@ -12571,7 +12560,7 @@ const University = createLucideIcon("University", [
   ["path", { d: "M6 13v.01", key: "67c122" }],
   ["path", { d: "M18 17v.01", key: "12ktxm" }],
   ["path", { d: "M18 13v.01", key: "tn1rt1" }],
-  ["path", { d: "M14 22v-5a2 2 0 0 0-2-2a2 2 0 0 0-2 2v5", key: "11g7fi" }]
+  ["path", { d: "M14 22v-5a2 2 0 0 0-2-2 2 2 0 0 0-2 2v5", key: "i20kj7" }]
 ]);
 
 const Unlink2 = createLucideIcon("Unlink2", [
@@ -12760,7 +12749,7 @@ const UtensilsCrossed = createLucideIcon("UtensilsCrossed", [
 const Utensils = createLucideIcon("Utensils", [
   ["path", { d: "M3 2v7c0 1.1.9 2 2 2h4a2 2 0 0 0 2-2V2", key: "cjf0a3" }],
   ["path", { d: "M7 2v20", key: "1473qp" }],
-  ["path", { d: "M21 15V2a5 5 0 0 0-5 5v6c0 1.1.9 2 2 2h3Zm0 0v7", key: "j28e5" }]
+  ["path", { d: "M21 15V2a5 5 0 0 0-5 5v6c0 1.1.9 2 2 2zm0 0v7", key: "1kxujs" }]
 ]);
 
 const UtilityPole = createLucideIcon("UtilityPole", [
@@ -16286,7 +16275,11 @@ exports.Grape = Grape;
 exports.GrapeIcon = Grape;
 exports.Grid = Grid3x3;
 exports.Grid2X2 = Grid2x2;
+exports.Grid2X2Check = Grid2x2Check;
+exports.Grid2X2CheckIcon = Grid2x2Check;
 exports.Grid2X2Icon = Grid2x2;
+exports.Grid2X2X = Grid2x2X;
+exports.Grid2X2XIcon = Grid2x2X;
 exports.Grid2x2 = Grid2x2;
 exports.Grid2x2Check = Grid2x2Check;
 exports.Grid2x2CheckIcon = Grid2x2Check;
@@ -17363,6 +17356,8 @@ exports.LucideGraduationCap = GraduationCap;
 exports.LucideGrape = Grape;
 exports.LucideGrid = Grid3x3;
 exports.LucideGrid2X2 = Grid2x2;
+exports.LucideGrid2X2Check = Grid2x2Check;
+exports.LucideGrid2X2X = Grid2x2X;
 exports.LucideGrid2x2 = Grid2x2;
 exports.LucideGrid2x2Check = Grid2x2Check;
 exports.LucideGrid2x2X = Grid2x2X;

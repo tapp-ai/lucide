@@ -12,7 +12,7 @@ import { mergeClasses } from './shared/src/utils.js';
 const Icon = forwardRef(
   ({
     color = "currentColor",
-    size = 24,
+    size = 16,
     strokeWidth = 2,
     absoluteStrokeWidth,
     className = "",

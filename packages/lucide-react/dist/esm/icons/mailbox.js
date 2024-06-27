@@ -11,8 +11,8 @@ const Mailbox = createLucideIcon("Mailbox", [
   [
     "path",
     {
-      d: "M22 17a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V9.5C2 7 4 5 6.5 5H18c2.2 0 4 1.8 4 4v8Z",
-      key: "1lbycx"
+      d: "M22 17a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V9.5C2 7 4 5 6.5 5H18c2.2 0 4 1.8 4 4z",
+      key: "15eup0"
     }
   ],
   ["polyline", { points: "15,9 18,9 18,11", key: "1pm9c0" }],

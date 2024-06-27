@@ -17,7 +17,7 @@ const MonitorPlay = createLucideIcon("MonitorPlay", [
   ],
   ["path", { d: "M12 17v4", key: "1riwvh" }],
   ["path", { d: "M8 21h8", key: "1ev6f3" }],
-  ["rect", { x: "2", y: "3", width: "20", height: "14", rx: "2", key: "x3v2xh" }]
+  ["rect", { width: "20", height: "14", x: "2", y: "3", rx: "2", key: "48i651" }]
 ]);
 
 export { MonitorPlay as default };

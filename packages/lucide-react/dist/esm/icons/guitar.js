@@ -24,7 +24,7 @@ const Guitar = createLucideIcon("Guitar", [
       key: "1u8q3z"
     }
   ],
-  ["circle", { cx: "11.5", cy: "12.5", r: ".5", fill: "currentColor", key: "16onso" }]
+  ["circle", { cx: "11.5", cy: "12.5", r: ".5", key: "1evg0a" }]
 ]);
 
 export { Guitar as default };

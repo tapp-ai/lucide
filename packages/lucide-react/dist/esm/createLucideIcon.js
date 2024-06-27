@@ -14,8 +14,6 @@ const createLucideIcon = (iconName, iconNode) => {
     ({ className, ...props }, ref) => createElement(Icon, {
       ref,
       iconNode,
-      size: 16,
-      strokeWidth: 2,
       className: mergeClasses(`lucide-${toKebabCase(iconName)}`, className),
       ...props
     })

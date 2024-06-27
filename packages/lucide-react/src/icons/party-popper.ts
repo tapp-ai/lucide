@@ -4,7 +4,7 @@ import createLucideIcon from '../createLucideIcon';
  * @component @name PartyPopper
  * @description Lucide SVG icon component, renders SVG Element with children.
  *
- * @preview ![img](data:image/svg+xml;base64,PHN2ZyAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogIHdpZHRoPSIyNCIKICBoZWlnaHQ9IjI0IgogIHZpZXdCb3g9IjAgMCAyNCAyNCIKICBmaWxsPSJub25lIgogIHN0cm9rZT0iIzAwMCIgc3R5bGU9ImJhY2tncm91bmQtY29sb3I6ICNmZmY7IGJvcmRlci1yYWRpdXM6IDJweCIKICBzdHJva2Utd2lkdGg9IjIiCiAgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIgogIHN0cm9rZS1saW5lam9pbj0icm91bmQiCj4KICA8cGF0aCBkPSJNNS44IDExLjMgMiAyMmwxMC43LTMuNzkiIC8+CiAgPHBhdGggZD0iTTQgM2guMDEiIC8+CiAgPHBhdGggZD0iTTIyIDhoLjAxIiAvPgogIDxwYXRoIGQ9Ik0xNSAyaC4wMSIgLz4KICA8cGF0aCBkPSJNMjIgMjBoLjAxIiAvPgogIDxwYXRoIGQ9Im0yMiAyLTIuMjQuNzVhMi45IDIuOSAwIDAgMC0xLjk2IDMuMTJjLjEuODYtLjU3IDEuNjMtMS40NSAxLjYzaC0uMzhjLS44NiAwLTEuNi42LTEuNzYgMS40NEwxNCAxMCIgLz4KICA8cGF0aCBkPSJtMjIgMTMtLjgyLS4zM2MtLjg2LS4zNC0xLjgyLjItMS45OCAxLjExYy0uMTEuNy0uNzIgMS4yMi0xLjQzIDEuMjJIMTciIC8+CiAgPHBhdGggZD0ibTExIDIgLjMzLjgyYy4zNC44Ni0uMiAxLjgyLTEuMTEgMS45OEM5LjUyIDQuOSA5IDUuNTIgOSA2LjIzVjciIC8+CiAgPHBhdGggZD0iTTExIDEzYzEuOTMgMS45MyAyLjgzIDQuMTcgMiA1LS44My44My0zLjA3LS4wNy01LTItMS45My0xLjkzLTIuODMtNC4xNy0yLTUgLjgzLS44MyAzLjA3LjA3IDUgMloiIC8+Cjwvc3ZnPgo=) - https://lucide.dev/icons/party-popper
+ * @preview ![img](data:image/svg+xml;base64,PHN2ZyAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogIHdpZHRoPSIyNCIKICBoZWlnaHQ9IjI0IgogIHZpZXdCb3g9IjAgMCAyNCAyNCIKICBmaWxsPSJub25lIgogIHN0cm9rZT0iIzAwMCIgc3R5bGU9ImJhY2tncm91bmQtY29sb3I6ICNmZmY7IGJvcmRlci1yYWRpdXM6IDJweCIKICBzdHJva2Utd2lkdGg9IjIiCiAgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIgogIHN0cm9rZS1saW5lam9pbj0icm91bmQiCj4KICA8cGF0aCBkPSJNNS44IDExLjMgMiAyMmwxMC43LTMuNzkiIC8+CiAgPHBhdGggZD0iTTQgM2guMDEiIC8+CiAgPHBhdGggZD0iTTIyIDhoLjAxIiAvPgogIDxwYXRoIGQ9Ik0xNSAyaC4wMSIgLz4KICA8cGF0aCBkPSJNMjIgMjBoLjAxIiAvPgogIDxwYXRoIGQ9Im0yMiAyLTIuMjQuNzVhMi45IDIuOSAwIDAgMC0xLjk2IDMuMTJjLjEuODYtLjU3IDEuNjMtMS40NSAxLjYzaC0uMzhjLS44NiAwLTEuNi42LTEuNzYgMS40NEwxNCAxMCIgLz4KICA8cGF0aCBkPSJtMjIgMTMtLjgyLS4zM2MtLjg2LS4zNC0xLjgyLjItMS45OCAxLjExLS4xMS43LS43MiAxLjIyLTEuNDMgMS4yMkgxNyIgLz4KICA8cGF0aCBkPSJtMTEgMiAuMzMuODJjLjM0Ljg2LS4yIDEuODItMS4xMSAxLjk4LS43LjEtMS4yMi43Mi0xLjIyIDEuNDNWNyIgLz4KICA8cGF0aCBkPSJNMTEgMTNjMS45MyAxLjkzIDIuODMgNC4xNyAyIDVzLTMuMDctLjA3LTUtMi0yLjgzLTQuMTctMi01IDMuMDcuMDcgNSAyIiAvPgo8L3N2Zz4K) - https://lucide.dev/icons/party-popper
  * @see https://lucide.dev/guide/packages/lucide-react - Documentation
  *
  * @param {Object} props - Lucide icons props and any valid SVG attribute
@@ -26,15 +26,12 @@ const PartyPopper = createLucideIcon('PartyPopper', [
   ],
   [
     'path',
-    { d: 'm22 13-.82-.33c-.86-.34-1.82.2-1.98 1.11c-.11.7-.72 1.22-1.43 1.22H17', key: '1i94pl' },
+    { d: 'm22 13-.82-.33c-.86-.34-1.82.2-1.98 1.11-.11.7-.72 1.22-1.43 1.22H17', key: 'r6337e' },
   ],
-  ['path', { d: 'm11 2 .33.82c.34.86-.2 1.82-1.11 1.98C9.52 4.9 9 5.52 9 6.23V7', key: '1cofks' }],
+  ['path', { d: 'm11 2 .33.82c.34.86-.2 1.82-1.11 1.98-.7.1-1.22.72-1.22 1.43V7', key: 'ykb4t0' }],
   [
     'path',
-    {
-      d: 'M11 13c1.93 1.93 2.83 4.17 2 5-.83.83-3.07-.07-5-2-1.93-1.93-2.83-4.17-2-5 .83-.83 3.07.07 5 2Z',
-      key: '4kbmks',
-    },
+    { d: 'M11 13c1.93 1.93 2.83 4.17 2 5s-3.07-.07-5-2-2.83-4.17-2-5 3.07.07 5 2', key: '10j518' },
   ],
 ]);
 

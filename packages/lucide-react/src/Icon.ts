@@ -26,7 +26,7 @@ const Icon = forwardRef<SVGSVGElement, IconComponentProps>(
   (
     {
       color = 'currentColor',
-      size = 24,
+      size = 16,
       strokeWidth = 2,
       absoluteStrokeWidth,
       className = '',

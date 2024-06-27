@@ -8,7 +8,7 @@
 import createLucideIcon from '../createLucideIcon.js';
 
 const Trees = createLucideIcon("Trees", [
-  ["path", { d: "M10 10v.2A3 3 0 0 1 8.9 16H5a3 3 0 0 1-1-5.8V10a3 3 0 0 1 6 0Z", key: "1l6gj6" }],
+  ["path", { d: "M10 10v.2A3 3 0 0 1 8.9 16H5a3 3 0 0 1-1-5.8V10a3 3 0 0 1 6 0", key: "wtc0yj" }],
   ["path", { d: "M7 16v6", key: "1a82de" }],
   ["path", { d: "M13 19v3", key: "13sx9i" }],
   [

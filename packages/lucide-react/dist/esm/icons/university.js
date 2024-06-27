@@ -14,7 +14,7 @@ const University = createLucideIcon("University", [
   ["path", { d: "M6 13v.01", key: "67c122" }],
   ["path", { d: "M18 17v.01", key: "12ktxm" }],
   ["path", { d: "M18 13v.01", key: "tn1rt1" }],
-  ["path", { d: "M14 22v-5a2 2 0 0 0-2-2a2 2 0 0 0-2 2v5", key: "11g7fi" }]
+  ["path", { d: "M14 22v-5a2 2 0 0 0-2-2 2 2 0 0 0-2 2v5", key: "i20kj7" }]
 ]);
 
 export { University as default };

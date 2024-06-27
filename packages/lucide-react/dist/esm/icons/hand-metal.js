@@ -8,7 +8,7 @@
 import createLucideIcon from '../createLucideIcon.js';
 
 const HandMetal = createLucideIcon("HandMetal", [
-  ["path", { d: "M18 12.5V10a2 2 0 0 0-2-2a2 2 0 0 0-2 2v1.4", key: "wc6myp" }],
+  ["path", { d: "M18 12.5V10a2 2 0 0 0-2-2 2 2 0 0 0-2 2v1.4", key: "16zw0k" }],
   ["path", { d: "M14 11V9a2 2 0 1 0-4 0v2", key: "94qvcw" }],
   ["path", { d: "M10 10.5V5a2 2 0 1 0-4 0v9", key: "m1ah89" }],
   [
