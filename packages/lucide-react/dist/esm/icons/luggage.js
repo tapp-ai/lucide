@@ -10,10 +10,7 @@ import createLucideIcon from '../createLucideIcon.js';
 const Luggage = createLucideIcon("Luggage", [
   [
     "path",
-    {
-      d: "M6 20h0a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2h0",
-      key: "1h5fkc"
-    }
+    { d: "M6 20a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2", key: "1m57jg" }
   ],
   ["path", { d: "M8 18V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v14", key: "1l99gc" }],
   ["path", { d: "M10 20h4", key: "ni2waw" }],

@@ -6,6 +6,9 @@
  */
 
 const toKebabCase = (string) => string.replace(/([a-z0-9])([A-Z])/g, "$1-$2").toLowerCase();
+const mergeClasses = (...classes) => classes.filter((className, index, array) => {
+  return Boolean(className) && array.indexOf(className) === index;
+}).join(" ");
 
-export { toKebabCase };
+export { mergeClasses, toKebabCase };
 //# sourceMappingURL=utils.js.map

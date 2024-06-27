@@ -9,7 +9,7 @@ import createLucideIcon from '../createLucideIcon';
  *
  * @param {Object} props - Lucide icons props and any valid SVG attribute
  * @returns {JSX.Element} JSX Element
- * @deprecated
+ * @deprecated Brand icons have been deprecated and are due to be removed, please refer to https://github.com/lucide-icons/lucide/issues/670. We recommend using https://simpleicons.org/?q=trello instead. This icon will be removed in v1.0
  */
 const Trello = createLucideIcon('Trello', [
   ['rect', { width: '18', height: '18', x: '3', y: '3', rx: '2', ry: '2', key: '1m3agn' }],

@@ -9,7 +9,7 @@ import createLucideIcon from '../createLucideIcon';
  *
  * @param {Object} props - Lucide icons props and any valid SVG attribute
  * @returns {JSX.Element} JSX Element
- * @deprecated
+ * @deprecated Brand icons have been deprecated and are due to be removed, please refer to https://github.com/lucide-icons/lucide/issues/670. We recommend using https://simpleicons.org/?q=chrome instead. This icon will be removed in v1.0
  */
 const Chrome = createLucideIcon('Chrome', [
   ['circle', { cx: '12', cy: '12', r: '10', key: '1mglay' }],

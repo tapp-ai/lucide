@@ -9,7 +9,7 @@ import createLucideIcon from '../createLucideIcon';
  *
  * @param {Object} props - Lucide icons props and any valid SVG attribute
  * @returns {JSX.Element} JSX Element
- * @deprecated
+ * @deprecated Brand icons have been deprecated and are due to be removed, please refer to https://github.com/lucide-icons/lucide/issues/670. We recommend using https://simpleicons.org/?q=framer instead. This icon will be removed in v1.0
  */
 const Framer = createLucideIcon('Framer', [
   ['path', { d: 'M5 16V9h14V2H5l14 14h-7m-7 0 7 7v-7m-7 0h7', key: '1a2nng' }],

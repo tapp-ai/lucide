@@ -8,7 +8,7 @@
 import createLucideIcon from '../createLucideIcon.js';
 
 const Radiation = createLucideIcon("Radiation", [
-  ["path", { d: "M12 12h0.01", key: "6ztbls" }],
+  ["path", { d: "M12 12h.01", key: "1mp3jc" }],
   [
     "path",
     {

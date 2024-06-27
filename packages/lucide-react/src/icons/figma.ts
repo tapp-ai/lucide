@@ -9,7 +9,7 @@ import createLucideIcon from '../createLucideIcon';
  *
  * @param {Object} props - Lucide icons props and any valid SVG attribute
  * @returns {JSX.Element} JSX Element
- * @deprecated
+ * @deprecated Brand icons have been deprecated and are due to be removed, please refer to https://github.com/lucide-icons/lucide/issues/670. We recommend using https://simpleicons.org/?q=figma instead. This icon will be removed in v1.0
  */
 const Figma = createLucideIcon('Figma', [
   ['path', { d: 'M5 5.5A3.5 3.5 0 0 1 8.5 2H12v7H8.5A3.5 3.5 0 0 1 5 5.5z', key: '1340ok' }],

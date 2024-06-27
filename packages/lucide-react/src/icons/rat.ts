@@ -4,7 +4,7 @@ import createLucideIcon from '../createLucideIcon';
  * @component @name Rat
  * @description Lucide SVG icon component, renders SVG Element with children.
  *
- * @preview ![img](data:image/svg+xml;base64,PHN2ZyAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogIHdpZHRoPSIyNCIKICBoZWlnaHQ9IjI0IgogIHZpZXdCb3g9IjAgMCAyNCAyNCIKICBmaWxsPSJub25lIgogIHN0cm9rZT0iIzAwMCIgc3R5bGU9ImJhY2tncm91bmQtY29sb3I6ICNmZmY7IGJvcmRlci1yYWRpdXM6IDJweCIKICBzdHJva2Utd2lkdGg9IjIiCiAgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIgogIHN0cm9rZS1saW5lam9pbj0icm91bmQiCj4KICA8cGF0aCBkPSJNMTcgNWMwLTEuNy0xLjMtMy0zLTNzLTMgMS4zLTMgM2MwIC44LjMgMS41LjggMkgxMWMtMy45IDAtNyAzLjEtNyA3djBjMCAyLjIgMS44IDQgNCA0IiAvPgogIDxwYXRoIGQ9Ik0xNi44IDMuOWMuMy0uMy42LS41IDEtLjcgMS41LS42IDMuMy4xIDMuOSAxLjYuNiAxLjUtLjEgMy4zLTEuNiAzLjlsMS42IDIuOGMuMi4zLjIuNy4yIDEtLjIuOC0uOSAxLjItMS43IDEuMSAwIDAtMS42LS4zLTIuNy0uNkgxN2MtMS43IDAtMyAxLjMtMyAzIiAvPgogIDxwYXRoIGQ9Ik0xMy4yIDE4YTMgMyAwIDAgMC0yLjItNSIgLz4KICA8cGF0aCBkPSJNMTMgMjJINGEyIDIgMCAwIDEgMC00aDEyIiAvPgogIDxwYXRoIGQ9Ik0xNiA5aC4wMSIgLz4KPC9zdmc+Cg==) - https://lucide.dev/icons/rat
+ * @preview ![img](data:image/svg+xml;base64,PHN2ZyAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogIHdpZHRoPSIyNCIKICBoZWlnaHQ9IjI0IgogIHZpZXdCb3g9IjAgMCAyNCAyNCIKICBmaWxsPSJub25lIgogIHN0cm9rZT0iIzAwMCIgc3R5bGU9ImJhY2tncm91bmQtY29sb3I6ICNmZmY7IGJvcmRlci1yYWRpdXM6IDJweCIKICBzdHJva2Utd2lkdGg9IjIiCiAgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIgogIHN0cm9rZS1saW5lam9pbj0icm91bmQiCj4KICA8cGF0aCBkPSJNMTcgNWMwLTEuNy0xLjMtMy0zLTNzLTMgMS4zLTMgM2MwIC44LjMgMS41LjggMkgxMWMtMy45IDAtNyAzLjEtNyA3YzAgMi4yIDEuOCA0IDQgNCIgLz4KICA8cGF0aCBkPSJNMTYuOCAzLjljLjMtLjMuNi0uNSAxLS43IDEuNS0uNiAzLjMuMSAzLjkgMS42LjYgMS41LS4xIDMuMy0xLjYgMy45bDEuNiAyLjhjLjIuMy4yLjcuMiAxLS4yLjgtLjkgMS4yLTEuNyAxLjEgMCAwLTEuNi0uMy0yLjctLjZIMTdjLTEuNyAwLTMgMS4zLTMgMyIgLz4KICA8cGF0aCBkPSJNMTMuMiAxOGEzIDMgMCAwIDAtMi4yLTUiIC8+CiAgPHBhdGggZD0iTTEzIDIySDRhMiAyIDAgMCAxIDAtNGgxMiIgLz4KICA8cGF0aCBkPSJNMTYgOWguMDEiIC8+Cjwvc3ZnPgo=) - https://lucide.dev/icons/rat
  * @see https://lucide.dev/guide/packages/lucide-react - Documentation
  *
  * @param {Object} props - Lucide icons props and any valid SVG attribute
@@ -15,8 +15,8 @@ const Rat = createLucideIcon('Rat', [
   [
     'path',
     {
-      d: 'M17 5c0-1.7-1.3-3-3-3s-3 1.3-3 3c0 .8.3 1.5.8 2H11c-3.9 0-7 3.1-7 7v0c0 2.2 1.8 4 4 4',
-      key: '16aj0u',
+      d: 'M17 5c0-1.7-1.3-3-3-3s-3 1.3-3 3c0 .8.3 1.5.8 2H11c-3.9 0-7 3.1-7 7c0 2.2 1.8 4 4 4',
+      key: '1wq71c',
     },
   ],
   [

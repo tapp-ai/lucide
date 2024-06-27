@@ -9,7 +9,7 @@ import createLucideIcon from '../createLucideIcon';
  *
  * @param {Object} props - Lucide icons props and any valid SVG attribute
  * @returns {JSX.Element} JSX Element
- * @deprecated
+ * @deprecated Brand icons have been deprecated and are due to be removed, please refer to https://github.com/lucide-icons/lucide/issues/670. We recommend using https://simpleicons.org/?q=codepen instead. This icon will be removed in v1.0
  */
 const Codepen = createLucideIcon('Codepen', [
   ['polygon', { points: '12 2 22 8.5 22 15.5 12 22 2 15.5 2 8.5 12 2', key: 'srzb37' }],

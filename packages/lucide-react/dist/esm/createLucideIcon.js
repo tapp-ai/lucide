@@ -6,38 +6,19 @@
  */
 
 import { forwardRef, createElement } from 'react';
-import defaultAttributes from './defaultAttributes.js';
-import { toKebabCase } from './shared/src/utils.js';
+import { mergeClasses, toKebabCase } from './shared/src/utils.js';
+import Icon from './Icon.js';
 
 const createLucideIcon = (iconName, iconNode) => {
   const Component = forwardRef(
-    ({
-      color = "currentColor",
-      size = 16,
-      strokeWidth = 2,
-      absoluteStrokeWidth,
-      className = "",
-      children,
-      ...rest
-    }, ref) => {
-      return createElement(
-        "svg",
-        {
-          ref,
-          ...defaultAttributes,
-          width: size,
-          height: size,
-          stroke: color,
-          strokeWidth: absoluteStrokeWidth ? Number(strokeWidth) * 24 / Number(size) : strokeWidth,
-          className: ["lucide", `lucide-${toKebabCase(iconName)}`, className].join(" "),
-          ...rest
-        },
-        [
-          ...iconNode.map(([tag, attrs]) => createElement(tag, attrs)),
-          ...Array.isArray(children) ? children : [children]
-        ]
-      );
-    }
+    ({ className, ...props }, ref) => createElement(Icon, {
+      ref,
+      iconNode,
+      size: 16,
+      strokeWidth: 2,
+      className: mergeClasses(`lucide-${toKebabCase(iconName)}`, className),
+      ...props
+    })
   );
   Component.displayName = `${iconName}`;
   return Component;

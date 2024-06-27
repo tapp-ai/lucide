@@ -8,8 +8,10 @@
 import createLucideIcon from '../createLucideIcon.js';
 
 const Bold = createLucideIcon("Bold", [
-  ["path", { d: "M14 12a4 4 0 0 0 0-8H6v8", key: "v2sylx" }],
-  ["path", { d: "M15 20a4 4 0 0 0 0-8H6v8Z", key: "1ef5ya" }]
+  [
+    "path",
+    { d: "M6 12h9a4 4 0 0 1 0 8H7a1 1 0 0 1-1-1V5a1 1 0 0 1 1-1h7a4 4 0 0 1 0 8", key: "mg9rjx" }
+  ]
 ]);
 
 export { Bold as default };
